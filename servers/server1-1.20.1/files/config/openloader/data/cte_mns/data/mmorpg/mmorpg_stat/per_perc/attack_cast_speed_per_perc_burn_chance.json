@@ -1,0 +1,15 @@
+{
+  "data": {
+    "add_to": "attack_cast_speed",
+    "adder_stat": "burn_chance",
+    "base": 0.0,
+    "ele": "Physical",
+	"priority": 100,
+    "id": "attack_cast_speed_per_perc_burn_chance",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

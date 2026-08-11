@@ -1,0 +1,33 @@
+{
+  "base_gear": "chainmail_chest",
+  "guid": "hungering_vessel",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "strongbox",
+  "min_drop_lvl": 70,
+  "min_tier": 50,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": -75.0,
+      "min": -75.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 4.0,
+      "min": 4.0,
+      "stat": "jewel_socket"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "jewel_effect"
+    }
+  ],
+  "weight": 1000
+}

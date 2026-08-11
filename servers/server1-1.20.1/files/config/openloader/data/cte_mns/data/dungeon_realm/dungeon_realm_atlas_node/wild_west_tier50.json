@@ -1,0 +1,10 @@
+{
+  "atlas_points_reward": 1,
+  "dungeon": "wild_west",
+  "id": "wild_west_tier50",
+  "is_pinnacle_unlock": false,
+  "min_rarity": "",
+  "min_tier": 50,
+  "require_uber": false,
+  "starting_node": false
+}

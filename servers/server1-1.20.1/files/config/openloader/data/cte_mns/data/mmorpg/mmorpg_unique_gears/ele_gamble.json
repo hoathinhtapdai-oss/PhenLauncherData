@@ -1,0 +1,34 @@
+{
+  "base_gear": "ring",
+  "flavor_text": "",
+  "hide_from_wiki": true,
+  "force_item_id": "",
+  "guid": "ele_gamble_deprecated",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "FLAT",
+      "max": 35.0,
+      "min": -50.0,
+      "stat": "all_water_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 35.0,
+      "min": -50.0,
+      "stat": "all_fire_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 35.0,
+      "min": -50.0,
+      "stat": "all_lightning_damage"
+    }
+  ],
+  "weight": 0
+}

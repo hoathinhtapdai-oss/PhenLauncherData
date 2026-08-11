@@ -1,0 +1,7 @@
+{
+  "effect": "reaper_form",
+  "give_to": "Source",
+  "id": "extend_reaper_form_source",
+  "seconds": 10,
+  "ser": "give_exile_effect"
+}

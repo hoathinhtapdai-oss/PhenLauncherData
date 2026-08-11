@@ -1,0 +1,1418 @@
+{
+  "attached": {
+    "entity_components": {
+      "remove_sacrifice": [
+        {
+          "acts": [
+            {
+              "type": "exile_effect",
+              "map": {
+                "count": 3.0,
+                "exile_potion_id": "sacrifice",
+                "potion_action": "REMOVE_STACKS",
+                "potion_dur": 200.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ],
+          "targets": [
+            {
+              "type": "self",
+              "map": {}
+            }
+          ]
+        }
+      ],
+      "tombstone_spawn": [
+        {
+          "acts": [
+            {
+              "type": "summon_block",
+              "map": {
+                "block": "mca:upright_headstone",
+                "block_fall_speed": 0.0,
+                "entity_name": "default_tombstone",
+                "find_surface": true,
+                "is_falling_block": false,
+                "life_ticks": 200.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "sanguine_aura",
+              "is_false": true
+            }            
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "abyssal_aura",
+              "is_false": true
+            }            
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "plague_aura",
+              "is_false": true
+            }            
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "summon_block",
+              "map": {
+                "block": "mca:upright_headstone",
+                "block_fall_speed": 0.0,
+                "entity_name": "abyss_tombstone",
+                "find_surface": true,
+                "is_falling_block": false,
+                "life_ticks": 200.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "sanguine_aura",
+              "is_false": true
+            }            
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "abyssal_aura"
+            }            
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "plague_aura",
+              "is_false": true
+            }            
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "summon_block",
+              "map": {
+                "block": "mca:upright_headstone",
+                "block_fall_speed": 0.0,
+                "entity_name": "blood_tombstone",
+                "find_surface": true,
+                "is_falling_block": false,
+                "life_ticks": 200.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "sanguine_aura"
+            }            
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "abyssal_aura",
+              "is_false": true
+            }            
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "plague_aura",
+              "is_false": true
+            }            
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "summon_block",
+              "map": {
+                "block": "mca:upright_headstone",
+                "block_fall_speed": 0.0,
+                "entity_name": "ed_tombstone",
+                "find_surface": true,
+                "is_falling_block": false,
+                "life_ticks": 200.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "sanguine_aura",
+              "is_false": true
+            }            
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "abyssal_aura",
+              "is_false": true
+            }            
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "plague_aura"
+            }            
+            }
+          ],
+          "targets": []
+        }
+      ],
+      "default_tombstone": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.5,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "minecraft:witch",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.75,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "minecraft:witch",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.0,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "minecraft:witch",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.25,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "minecraft:witch",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.5,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "minecraft:witch",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.75,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "minecraft:witch",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.0,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "minecraft:witch",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.25,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "minecraft:witch",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.5,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "minecraft:witch",
+                "radius": 0.5
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.0,
+                "motion": "None",
+                "particle_count": 20.0,
+                "particle_type": "minecraft:soul",
+                "radius": 1.0,
+                "shape": "CIRCLE_2D_EDGE"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        },       
+        {
+        "acts": [
+            {
+                  "type": "projectile",
+                  "map": {
+                  "entity_name": "default_spirit",
+			            "expire_on_block_hit": false,
+                  "gravity": false,
+                  "item": "born_in_chaos_v1:nightmare_stalker_skull",
+                  "life_ticks": 80.0,
+                  "proj_count": 1.0,
+                  "proj_en": "mmorpg:spell_projectile",
+                  "proj_speed": 0.6,
+                  "tracks_enemies": true
+                  }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ],
+      "default_spirit": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "minecraft:soul",
+                "radius": 0.35,
+                "shape": "CIRCLE",
+                "y_rand": 0.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Shadow",
+				"disable_knockback": true,
+                "value_calculation": "summon_wraith"
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 20.0,
+                "particle_type": "minecraft:soul",
+                "radius": 2.0,
+                "shape": "CIRCLE_2D_EDGE"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ],
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "en_predicate": "enemies",
+                "radius": 2.0,
+                "selection_type": "RADIUS"
+              }
+            }
+          ]
+        }
+      ],
+      "abyss_tombstone": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.5,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:darkmatter",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.75,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:darkmatter",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.0,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:darkmatter",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.25,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:darkmatter",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.5,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:darkmatter",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.75,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:darkmatter",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.0,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:darkmatter",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.25,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:darkmatter",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.5,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:darkmatter",
+                "radius": 0.5
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.0,
+                "motion": "None",
+                "particle_count": 20.0,
+                "particle_type": "blue_skies:black_flame",
+                "radius": 1.0,
+                "shape": "CIRCLE_2D_EDGE"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        },       
+        {
+        "acts": [
+            {
+                  "type": "projectile",
+                  "map": {
+                  "entity_name": "abyss_spirit",
+			            "expire_on_block_hit": false,
+                  "gravity": false,
+                  "item": "born_in_chaos_v1:nightmare_stalker_skull",
+                  "life_ticks": 80.0,
+                  "proj_count": 1.0,
+                  "proj_en": "mmorpg:spell_projectile",
+                  "proj_speed": 0.6,
+                  "tracks_enemies": true
+                  }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ],
+      "abyss_spirit": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "blue_skies:black_flame",
+                "radius": 0.35,
+                "shape": "CIRCLE",
+                "y_rand": 0.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Shadow",
+				"disable_knockback": true,
+                "value_calculation": "summon_wraith_abyss"
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 20.0,
+                "particle_type": "blue_skies:black_flame",
+                "radius": 1.5,
+                "shape": "CIRCLE_2D_EDGE"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ],
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "en_predicate": "enemies",
+                "radius": 2.0,
+                "selection_type": "RADIUS"
+              }
+            }
+          ]
+        },
+        {
+        "acts": [
+          {
+            "type": "projectile",
+            "map": {
+              "entity_name": "abyss_nova",
+              "gravity": false,
+              "item": "born_in_chaos_v1:nightmare_stalker_skull",
+              "life_ticks": 20.0,
+              "proj_count": 3.0,
+              "proj_en": "mmorpg:spell_projectile",
+              "proj_speed": 0.6,
+              "nova": true,
+              "expire_on_en_hit": false
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_entity_expire",
+            "map": {}
+          }
+        ],
+        "targets": []
+        }
+      ],
+      "abyss_nova": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "blue_skies:black_flame",
+                "radius": 0.35,
+                "shape": "CIRCLE",
+                "y_rand": 0.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Shadow",
+				"disable_knockback": true,
+                "value_calculation": "summon_wraith_abyss"
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "blue_skies:black_flame",
+                "radius": 0.5,
+                "shape": "CIRCLE_2D_EDGE"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_hit",
+              "map": {}
+            }
+          ],
+          "targets": [
+            {
+              "type": "target",
+              "map": {
+                "en_predicate": "enemies"
+              }
+            }
+          ]
+        }
+      ],
+      "blood_tombstone": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.5,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "born_in_chaos_v1:magichit",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.75,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "born_in_chaos_v1:magichit",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.0,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "born_in_chaos_v1:magichit",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.25,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "born_in_chaos_v1:magichit",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.5,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "born_in_chaos_v1:magichit",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.75,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "born_in_chaos_v1:magichit",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.0,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "born_in_chaos_v1:magichit",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.25,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "born_in_chaos_v1:magichit",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.5,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "born_in_chaos_v1:magichit",
+                "radius": 0.5
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.0,
+                "motion": "None",
+                "particle_count": 20.0,
+                "particle_type": "born_in_chaos_v1:fleshsplash",
+                "radius": 1.0,
+                "shape": "CIRCLE_2D_EDGE"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        },       
+        {
+        "acts": [
+            {
+                  "type": "projectile",
+                  "map": {
+                  "entity_name": "blood_spirit",
+			            "expire_on_block_hit": false,
+                  "gravity": false,
+                  "item": "born_in_chaos_v1:nightmare_stalker_skull",
+                  "life_ticks": 80.0,
+                  "proj_count": 1.0,
+                  "proj_en": "mmorpg:spell_projectile",
+                  "proj_speed": 0.6,
+                  "tracks_enemies": true
+                  }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ],
+      "blood_spirit": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:fleshsplash",
+                "radius": 0.35,
+                "shape": "CIRCLE",
+                "y_rand": 0.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 20.0,
+                "particle_type": "born_in_chaos_v1:fleshsplash",
+                "radius": 2.0,
+                "shape": "CIRCLE_2D_EDGE"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ],
+          "targets": [
+            {
+              "type": "target",
+              "map": {
+                "en_predicate": "enemies"
+              }
+            }
+          ]
+        },
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Physical",
+				"disable_knockback": true,
+                "value_calculation": "summon_wraith_blood"
+              }
+            },
+            {
+					"type": "exile_effect",
+					"map": {
+					  "count": 1.0,
+					  "exile_potion_id": "aggravated_wounds",
+					  "potion_action": "GIVE_STACKS",
+					  "potion_dur": 160.0
+					  }
+				    }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ],
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "en_predicate": "enemies",
+                "radius": 2.0,
+                "selection_type": "RADIUS"
+              }
+            }
+          ]
+        }
+      ],
+      "ed_tombstone": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.5,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:infernaltrail",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.75,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:infernaltrail",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.0,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:infernaltrail",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.25,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:infernaltrail",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.5,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:infernaltrail",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.75,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:infernaltrail",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.0,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:infernaltrail",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.25,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:infernaltrail",
+                "radius": 0.5
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.5,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:infernaltrail",
+                "radius": 0.5
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.0,
+                "motion": "None",
+                "particle_count": 20.0,
+                "particle_type": "born_in_chaos_v1:infernal_surge",
+                "radius": 1.0,
+                "shape": "CIRCLE_2D_EDGE"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        },       
+        {
+        "acts": [
+            {
+                  "type": "projectile",
+                  "map": {
+                  "entity_name": "ed_spirit",
+			            "expire_on_block_hit": false,
+                  "gravity": false,
+                  "item": "born_in_chaos_v1:nightmare_stalker_skull",
+                  "life_ticks": 80.0,
+                  "proj_count": 1.0,
+                  "proj_en": "mmorpg:spell_projectile",
+                  "proj_speed": 0.6,
+                  "tracks_enemies": true
+                  }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ],
+      "ed_spirit": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "born_in_chaos_v1:infernal_surge",
+                "radius": 0.35,
+                "shape": "CIRCLE",
+                "y_rand": 0.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [],
+          "targets": []
+        },
+        {
+        "acts": [
+          {
+              "type": "summon_block",
+              "map": {
+                "block": "minecraft:air",
+                "block_fall_speed": 0.0,
+                "entity_name": "ed_cloud",
+                "find_surface": false,
+                "is_falling_block": false,
+                "life_ticks": 60.0
+              }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_entity_expire",
+            "map": {}
+          }
+        ],
+        "targets": []
+        }
+      ],
+      "ed_cloud": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "shape": "CIRCLE_2D",
+                "particle_count": 10.0,
+                "particle_type": "born_in_chaos_v1:infernal_surge",
+                "radius": 2.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 10.0
+              }
+            }
+          ],
+          "targets": []
+        },
+        {
+        "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Fire",
+          "disable_knockback": true,
+                  "value_calculation": "summon_wraith_cloud"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 10.0
+              }
+            }
+          ],
+          "per_entity_hit": [
+            {
+              "acts": [
+                {
+                  "type": "particles_in_radius",
+                  "map": {
+                    "height": 0.5,
+                    "motion": "None",
+                    "particle_count": 3.0,
+                    "particle_type": "born_in_chaos_v1:infernal_surge",
+                    "radius": 0.5
+                  }
+                }
+              ],
+              "en_preds": [],
+              "ifs": [],
+              "targets": []
+            }
+          ],
+        "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "en_predicate": "enemies",
+                "radius": 2.0,
+                "selection_type": "RADIUS"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "on_cast": [
+      {
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "pitch": 1.5,
+              "sound": "roe_sfx:spell_summon_icegolem",
+              "volume": 0.8
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "projectile",
+            "map": {
+              "entity_name": "tombstone_spawn",
+              "gravity": false,
+              "life_ticks": 1.0,
+              "proj_en": "mmorpg:spell_projectile",
+              "proj_count": 1.0,
+              "proj_speed": 20.0,
+              "item": "minecraft:air"
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          },
+          {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "effect_stacks": 3.0,
+              "exile_potion_id": "sacrifice",
+              "is_false": true
+            }            
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "projectile",
+            "map": {
+              "entity_name": "tombstone_spawn",
+              "gravity": false,
+              "life_ticks": 1.0,
+              "proj_en": "mmorpg:spell_projectile",
+              "proj_count": 3.0,
+              "proj_speed": 20.0,
+              "item": "minecraft:air"
+            }
+          },
+          {
+            "type": "projectile",
+            "map": {
+              "entity_name": "remove_sacrifice",
+              "gravity": false,
+              "item": "minecraft:air",
+              "life_ticks": 1.0,
+              "proj_count": 1.0,
+              "proj_en": "mmorpg:spell_projectile",
+              "proj_speed": 0.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          },
+          {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "effect_stacks": 3.0,
+              "exile_potion_id": "sacrifice"
+            }            
+          }
+        ],
+        "targets": []
+      }
+    ]
+  },
+  "cast_animation": {
+    "id": "steady_cast"
+  },
+  "cast_finish_animation": {
+    "id": "cast_finish"
+  },
+  "config": {
+    "aggro_radius": 10,
+    "cast_time_ticks": 0,
+    "castingWeapon": "MAGE_WEAPON",
+    "charge_name": "",
+    "charge_regen": 0,
+    "charges": 0,
+    "cooldown_ticks": 200,
+    "ene_cost": {
+      "max": 0.0,
+      "min": 0.0
+    },
+    "imbues": 0,
+    "mana_cost": {
+      "max": 14.0,
+      "min": 10.5
+    },
+    "slows_when_casting": true,
+    "style": "int",
+    "summonType": "UNDEAD",
+    "summon_basic_atk": "",
+    "swing_arm": false,
+    "tags": {
+      "tags": [
+		"summon",
+		"damage",
+		"magic",
+		"chaos",
+        "physical",
+        "cast_speed_to_cooldown",
+        "area"
+      ]
+    },
+    "times_to_cast": 1,
+    "tracking_radius": 5,
+    "tracks": "enemies",
+    "use_support_gems_from": ""
+  },
+  "default_lvl": 0,
+  "disabled_dims": [],
+  "effect_tip": "",
+  "identifier": "summon_wraith",
+  "loc_name": "Summon Wraith",
+  "lvl_based_on_spell": "",
+  "manual_tip": true,
+  "max_lvl": 16,
+  "min_lvl": 1,
+  "show_other_spell_tooltip": "",
+  "statsForSkillGem": [
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 50.0,
+      "stat": "burn_chance"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 25.0,
+      "stat": "summon_damage_per_perc_of_summon_duration"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,7 @@
+{
+  "effect": "stun",
+  "give_to": "Target",
+  "id": "give_stun_effect_to_target",
+  "seconds": 2,
+  "ser": "give_exile_effect"
+}

@@ -1,0 +1,26 @@
+{
+  "base": {
+    "max": 8.0,
+    "min": 5.6
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 3.0,
+      "min": 2.1
+    },
+    "stat": "health"
+  },
+  "id": "vortex_skewer",
+  "target_stat_scalings": [],
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 3.0,
+        "min": 2.1
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

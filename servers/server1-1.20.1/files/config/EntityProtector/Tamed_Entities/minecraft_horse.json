@@ -1,0 +1,8 @@
+{
+  "entityId": "minecraft:horse",
+  "useWolfLikeAI": false,
+  "takeOwnerDamage": false,
+  "takeOtherPlayerDamage": false,
+  "takeMobDamage": false,
+  "isProtectedByNameTags": true
+}

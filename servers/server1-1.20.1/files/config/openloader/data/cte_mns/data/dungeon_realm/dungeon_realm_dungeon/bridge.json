@@ -1,0 +1,56 @@
+{
+  "author": "FeelingOwl",
+  "data": {
+    "max_rooms": 0,
+    "min_rooms": 0,
+    "room_size": 16,
+    "curved_hallways": [
+    "ch_bridge1",
+    "ch_bridge2",
+    "ch_bridge3",
+    "ch_bridge4",
+    "ch_bridge5"
+    ],
+    "ends": [
+    "end_bridge1",
+    "end_bridge2",
+    "end_bridge3",
+    "end_bridge4"
+
+    ],
+    "entrances": [
+    "e_bridge1"
+    ],
+    "folder": "bridge",
+    "four_ways": [
+    "4w_bridge",
+    "4w_bridge1",
+    "4w_bridge2",
+    "4w_bridge3",
+    "4w_bridge4",
+    "4w_bridge5"
+    ],
+    "mob_list_tag_check": {
+      "checks": [
+        {
+          "check": "HAS_ANY",
+          "tags": [
+		    "bridge"
+          ]
+        }
+      ]
+    },
+    "straight_hallways": [
+    "sh_bridge1",
+    "sh_bridge2",
+    "sh_bridge3"
+    ],
+    "triple_hallway": [
+    "3h_bridge1",
+    "3h_bridge2",
+    "3h_bridge3"
+    ]
+  },
+  "id": "bridge",
+  "weight": 1000
+}

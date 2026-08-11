@@ -1,0 +1,15 @@
+{
+  "type": "SPECIAL",
+  "icon": "mmorpg:textures/gui/stat_icons/misc/watcher_eye_find.png",
+  "id": "watcher_eye_find_node_big",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "watcher_eye_find",
+      "v1": 8.0
+    }
+  ]
+}

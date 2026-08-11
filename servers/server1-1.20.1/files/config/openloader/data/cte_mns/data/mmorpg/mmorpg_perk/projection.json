@@ -1,0 +1,33 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/projection.png",
+  "id": "projection",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "projection_when_hit",
+      "v1": 1.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "projection_on_dodge",
+      "v1": 1.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "magic_shield",
+      "v1": -10.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "armor",
+      "v1": -10.0
+    }
+  ]
+}

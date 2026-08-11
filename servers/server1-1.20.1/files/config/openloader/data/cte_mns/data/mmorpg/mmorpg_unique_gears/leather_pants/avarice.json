@@ -1,0 +1,51 @@
+{
+  "base_gear": "leather_pants",
+  "guid": "avarice",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_drop_lvl": 60,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": -50.0,
+      "min": -50.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 10.0,
+      "stat": "dmg_received"
+    },
+    {
+      "type": "FLAT",
+      "max": 33.0,
+      "min": 33.0,
+      "stat": "increased_quantity"
+    },
+    {
+      "type": "FLAT",
+      "max": -20.0,
+      "min": -25.0,
+      "stat": "magic_find"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 15.0,
+      "stat": "more_food_stats"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "move_speed"
+    }
+  ],
+  "weight": 1000
+}

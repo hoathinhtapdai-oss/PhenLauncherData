@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "minecraft:loot_table",
+          "name": "cte2:cte2_arch_rune",
+          "weight": 100
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "cte2:cte2_arch_key",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lightmanscurrency:coin_emerald",
+          "weight": 200
+        }
+      ]
+    }
+  ],
+  "random_sequence": "cte2_arch"
+}

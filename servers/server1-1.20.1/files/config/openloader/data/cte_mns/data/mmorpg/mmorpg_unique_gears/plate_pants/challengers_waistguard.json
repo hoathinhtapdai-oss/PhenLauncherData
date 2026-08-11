@@ -1,0 +1,39 @@
+{
+  "base_gear": "plate_pants",
+  "guid": "challengers_waistguard",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "obelisk",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 55.0,
+      "min": 45.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "plus_lvl_physical_spells"
+    },
+    {
+      "type": "FLAT",
+      "max": 150.0,
+      "min": 120.0,
+      "stat": "health_per_perc_of_strength"
+    },
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 6.0,
+      "stat": "armor"
+    }
+  ],
+  "weight": 1000
+}

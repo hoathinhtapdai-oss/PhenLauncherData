@@ -1,0 +1,226 @@
+{
+    "entries": [
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fried_2",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": {
+                "item": "alexsmobs:fish_oil"
+            },
+            "max_time": 400,
+            "min_time": 40,
+            "nutrition": 3,
+            "overcook_penalty": 0.7,
+            "raw_penalty": 0.2,
+            "size": 1,
+            "stir_time": 100
+        },
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "minecraft:resistance",
+                    "level": 1,
+                    "time": 2500
+                },
+                {
+                    "effect": "alexsmobs:knockback_resistance",
+                    "level": 1,
+                    "time": 2500
+                },
+                {
+                    "effect": "mine_and_meals:fried_1",
+                    "level": 0,
+                    "time": 12000
+                },
+                {
+                    "effect": "mine_and_meals:ice_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": {
+                "item": "alexsmobs:ambergris"
+            },
+            "max_time": 320,
+            "min_time": 240,
+            "nutrition": 4,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 60
+        },
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "minecraft:strength",
+                    "level": 2,
+                    "time": 1800
+                },
+                {
+                    "effect": "mine_and_meals:meat_2",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:spice_2",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": {
+                "item": "alexsmobs:warped_muscle"
+            },
+            "max_time": 360,
+            "min_time": 240,
+            "nutrition": 14,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 3,
+            "stir_time": 80
+        },
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "minecraft:strength",
+                    "level": 2,
+                    "time": 1800
+                },
+                {
+                    "effect": "mine_and_meals:meat_2",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:spice_2",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": {
+                "item": "alexsmobs:hemolymph_sac"
+            },
+            "max_time": 360,
+            "min_time": 240,
+            "nutrition": 14,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 3,
+            "stir_time": 80
+        },
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:meat_1",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 10000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "alexsmobs:centipede_leg"
+                }
+            ],
+            "max_time": 180,
+            "min_time": 100,
+            "nutrition": 3,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:strange_2",
+                    "level": 0,
+                    "time": 48000
+                },
+                {
+                    "effect": "mine_and_meals:vegetable_2",
+                    "level": 0,
+                    "time": 48000
+                },
+                {
+                    "effect": "mine_and_meals:fruit_2",
+                    "level": 0,
+                    "time": 48000
+                }
+            ],
+            "ingredient": {
+                "item": "alexsmobs:void_worm_eye"
+            },
+            "max_time": 480,
+            "min_time": 360,
+            "nutrition": 20,
+            "overcook_penalty": 0.8,
+            "raw_penalty": 0.8,
+            "size": 5,
+            "stir_time": 200
+        },
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 8000
+                },
+                {
+                    "effect": "mine_and_meals:spice_1",
+                    "level": 0,
+                    "time": 8000
+                }
+            ],
+            "ingredient": {
+                "item": "alexsmobs:mosquito_larva"
+            },
+            "max_time": 90,
+            "min_time": 40,
+            "nutrition": 4,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 8000
+                },
+                {
+                    "effect": "mine_and_meals:meat_1",
+                    "level": 0,
+                    "time": 16000
+                }
+            ],
+            "ingredient": {
+                "item": "alexsmobs:leafcutter_ant_pupa"
+            },
+            "max_time": 120,
+            "min_time": 80,
+            "nutrition": 6,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 3,
+            "stir_time": 80
+        }
+    ]
+}

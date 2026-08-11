@@ -1,0 +1,31 @@
+{
+  "type": "beneficial",
+  "id": "ritual_of_blood",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "ritual",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 12.5,
+      "stat": "bleed_chance"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 15.0,
+      "stat": "skill_damage_per_bleed_damage"
+    }
+    ],
+    "tags": {
+    "tags": [
+    "positive",
+    "offensive"
+    ]
+  }
+}

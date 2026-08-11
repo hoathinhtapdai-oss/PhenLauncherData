@@ -1,0 +1,22 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/stat_icons/misc/strongbox_event_chance.png",
+  "id": "singular_focus_strongbox",
+  "is_entry": false,
+  "max_lvls": 1,
+  "one_kind": "singular_focus",
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "strongbox_event_chance",
+      "v1": 100.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "event_focus_penalty",
+      "v1": 25.0
+    }
+  ]
+}

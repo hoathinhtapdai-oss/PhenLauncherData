@@ -1,0 +1,55 @@
+{
+  "author": "Helester",
+  "data": {
+    "max_rooms": 0,
+    "min_rooms": 0,
+    "room_size": 16,
+    "curved_hallways": [
+    "ch_1",
+    "ch_2",
+    "ch_3"
+    ],
+    "ends": [
+    "end_1",
+    "end_2",
+    "end_3",
+    "end_4",
+    "end_5"
+    ],
+    "entrances": [
+    "e_1",
+    "e_2"
+    ],
+    "folder": "undergarden",
+    "four_ways": [
+    "4w_1",
+    "4w_2",
+    "4w_3"
+    ],
+    "mob_list_tag_check": {
+      "checks": [
+        {
+          "check": "HAS_ANY",
+          "tags": [
+		    "undergarden"
+          ]
+        }
+      ]
+    },
+    "straight_hallways": [
+    "sh_1",
+    "sh_2",
+    "sh_3",
+    "sh_4",
+    "sh_5",
+    "sh_6"
+    ],
+    "triple_hallway": [
+    "3h_1",
+    "3h_2",
+    "3h_3"
+    ]
+  },
+  "id": "undergarden",
+  "weight": 1000
+}

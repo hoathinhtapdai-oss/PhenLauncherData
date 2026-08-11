@@ -1,0 +1,29 @@
+{
+  "type": "flan:block_left_click",
+  "values": [
+    {
+      "entry": "sophisticatedbackpacks:backpack",
+      "permission": "flan:open_container"
+    },
+    {
+      "entry": "sophisticatedbackpacks:backpack",
+      "permission": "flan:copper_backpack"
+    },
+    {
+      "entry": "sophisticatedbackpacks:backpack",
+      "permission": "flan:iron_backpack"
+    },
+    {
+      "entry": "sophisticatedbackpacks:backpack",
+      "permission": "flan:gold_backpack"
+    },
+    {
+      "entry": "sophisticatedbackpacks:backpack",
+      "permission": "flan:diamond_backpack"
+    },
+    {
+      "entry": "sophisticatedbackpacks:backpack",
+      "permission": "flan:netherite_backpack"
+    }
+  ]
+}

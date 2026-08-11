@@ -1,0 +1,15 @@
+{
+  "data": {
+    "add_to": "plus_phys_to_chaos",
+    "adder_stat": "projectile_damage",
+    "base": 0.0,
+    "ele": "Physical",
+	"priority": 100,
+    "id": "plus_phys_to_chaos_per_perc_projectile_damage",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

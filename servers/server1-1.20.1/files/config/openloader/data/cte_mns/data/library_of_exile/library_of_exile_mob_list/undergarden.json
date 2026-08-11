@@ -1,0 +1,31 @@
+{
+  "id": "undergarden",
+  "mobs": [
+    {
+      "mob_id": "undergarden:rotwalker",
+      "weight": 250
+    },
+    {
+      "mob_id": "undergarden:rotbeast",
+      "weight": 50
+    },
+    {
+      "mob_id": "undergarden:sploogie",
+      "weight": 150
+    },
+    {
+      "mob_id": "undergarden:nargoyle",
+      "weight": 125
+    },
+    {
+      "mob_id": "undergarden:rotling",
+      "weight": 250
+    }
+  ],
+  "tags": {
+    "tags": [
+      "undergarden"
+    ]
+  },
+  "weight": 1000
+}

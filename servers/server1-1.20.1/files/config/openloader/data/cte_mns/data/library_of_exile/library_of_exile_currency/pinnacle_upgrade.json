@@ -1,0 +1,24 @@
+{
+  "always_do_item_mods": [
+    {
+      "id": "pinnacle_upgrade",
+      "weight": 1
+    }
+  ],
+  "id": "pinnacle_upgrade",
+  "item_id": "dungeon_realm:pinnacle_upgrade",
+  "item_type_requirement": [
+    "is_map"
+  ],
+  "pick_one_item_mod": [],
+  "potential": {
+    "needs_potential": true,
+    "potential_cost": 0
+  },
+  "rar": "rare",
+  "req": [
+	"map_is_mythic",
+    "is_not_uber"
+  ],
+  "weight": 0
+}

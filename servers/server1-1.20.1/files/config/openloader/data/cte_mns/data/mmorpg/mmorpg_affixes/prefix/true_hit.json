@@ -1,0 +1,36 @@
+{
+  "type": "prefix",
+  "eye_aura_req": "",
+  "guid": "true_hit",
+  "one_of_a_kind": "",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "weapon_family",
+		  "might",
+		  "finesse"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 0.2,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 3.0,
+      "stat": "accuracy"
+    }
+  ],
+  "weight": 1000
+}

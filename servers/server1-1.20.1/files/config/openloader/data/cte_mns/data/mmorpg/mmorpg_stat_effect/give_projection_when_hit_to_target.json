@@ -1,0 +1,7 @@
+{
+  "effect": "projection_when_hit",
+  "give_to": "Target",
+  "id": "give_projection_when_hit_to_target",
+  "seconds": 30,
+  "ser": "give_exile_effect"
+}

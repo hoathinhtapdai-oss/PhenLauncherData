@@ -1,0 +1,7 @@
+{
+  "effect": "sanguine_aura",
+  "id": "remove_sanguine_aura_from_target",
+  "remove_from": "Target",
+  "ser": "remove_exile_effect",
+  "stacks": 1
+}

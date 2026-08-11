@@ -1,0 +1,26 @@
+{
+  "base": {
+    "max": 8.0,
+    "min": 5.6
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 3.5,
+      "min": 2.45
+    },
+    "stat": "health"
+  },
+  "id": "winters_grasp",
+  "target_stat_scalings": [],
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 3.5,
+        "min": 2.45
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "proc_spell_whiteout_sovereign_mini",
+  "pos": "TARGET",
+  "ser": "proc_spell",
+  "spellId": "whiteout_sovereign_mini",
+  "source": "Source",
+  "target": "Target",
+  "use_resource_costs": false
+}

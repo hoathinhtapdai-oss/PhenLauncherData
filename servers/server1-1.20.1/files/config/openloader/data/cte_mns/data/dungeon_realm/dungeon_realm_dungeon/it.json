@@ -1,0 +1,51 @@
+{
+  "author": "",
+  "data": {
+    "max_rooms": 0,
+    "min_rooms": 0,
+    "room_size": 16,
+    "curved_hallways": [
+      "caverns",
+      "ice_windows",
+      "ice_rooms",
+      "prayer_room"
+    ],
+    "ends": [
+      "boss_pool",
+      "evoker_boss",
+      "prison"
+    ],
+    "entrances": [
+      "pit"
+    ],
+    "folder": "it",
+    "four_ways": [
+      "strongmobs",
+      "waterfall_stairway",
+      "ziggurat"
+    ],
+    "mob_list_tag_check": {
+      "checks": [
+        {
+          "check": "HAS_ANY",
+          "tags": [
+            "map",
+			"water",
+			"generic_undead"
+          ]
+        }
+      ]
+    },
+    "straight_hallways": [
+      "arch",
+      "broken_bridge"
+    ],
+    "triple_hallway": [
+      "altar",
+      "fort_trader",
+      "pool0"
+    ]
+  },
+  "id": "it",
+  "weight": 1000
+}

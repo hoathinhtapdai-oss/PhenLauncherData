@@ -1,0 +1,45 @@
+{
+  "base_gear": "brigandine_pants",
+  "guid": "champions_waistguard",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "obelisk",
+  "min_drop_lvl": 40,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 7.0,
+      "stat": "health"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "attack_speed_per_perc_of_dexterity"
+    },
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "buff_cdr"
+    },
+    {
+      "type": "FLAT",
+      "max": 12.0,
+      "min": 8.0,
+      "stat": "elemental_resist"
+    }
+  ],
+  "weight": 1000
+}

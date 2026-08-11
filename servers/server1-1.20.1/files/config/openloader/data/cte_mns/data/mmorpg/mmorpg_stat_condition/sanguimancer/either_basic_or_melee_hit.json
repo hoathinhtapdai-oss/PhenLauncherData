@@ -1,0 +1,8 @@
+{
+  "id": "either_basic_or_melee_hit",
+  "ifs": [
+    "is_is_basic_atk_true",
+    "spell_has_tag_melee"
+  ],
+  "ser": "either_is_true"
+}

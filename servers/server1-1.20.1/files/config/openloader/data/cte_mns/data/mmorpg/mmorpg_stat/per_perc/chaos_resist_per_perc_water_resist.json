@@ -1,0 +1,15 @@
+{
+  "data": {
+    "add_to": "chaos_resist",
+    "adder_stat": "water_resist",
+    "base": 0.0,
+    "ele": "Physical",
+	"priority": 50,
+    "id": "chaos_resist_per_perc_water_resist",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

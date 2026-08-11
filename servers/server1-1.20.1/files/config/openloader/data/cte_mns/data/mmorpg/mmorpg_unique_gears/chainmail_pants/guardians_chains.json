@@ -1,0 +1,27 @@
+{
+  "base_gear": "chainmail_pants",
+  "guid": "guardians_chains",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 120.0,
+      "min": 80.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "elemental_resist"
+    }
+  ],
+  "weight": 1000
+}

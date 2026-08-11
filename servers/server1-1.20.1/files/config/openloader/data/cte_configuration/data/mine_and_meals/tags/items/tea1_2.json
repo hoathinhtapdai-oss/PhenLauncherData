@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:hot_cocoa",
+      "required": false
+    },
+    {
+      "id": "delightful:matcha_gummy",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:rose_hip_pie",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:rose_hip_pie_slice",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:tea_curry",
+      "required": false
+    }
+  ]
+}

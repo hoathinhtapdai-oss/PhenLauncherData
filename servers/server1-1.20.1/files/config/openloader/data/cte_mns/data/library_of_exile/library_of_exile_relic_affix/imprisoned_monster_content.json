@@ -1,0 +1,12 @@
+{
+  "id": "imprisoned_monster_content",
+  "mods": [
+    {
+      "max": 100.0,
+      "min": 33.0,
+      "stat": "imprisoned_monster_content"
+    }
+  ],
+  "relic_type": "mmorpg",
+  "weight": 1000
+}

@@ -1,0 +1,10 @@
+{
+  "atlas_points_reward": 1,
+  "dungeon": "undergarden",
+  "id": "undergarden_tier80",
+  "is_pinnacle_unlock": false,
+  "min_rarity": "",
+  "min_tier": 80,
+  "require_uber": false,
+  "starting_node": false
+}

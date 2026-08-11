@@ -1,0 +1,39 @@
+{
+  "type": "beneficial",
+  "id": "perseverance",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "hymn",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 4.0,
+      "min": 2.0,
+      "stat": "dmg_reduction"
+    },
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 30.0,
+      "stat": "health_regen"
+    },
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 30.0,
+      "stat": "magic_shield_regen"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "positive",
+    "song",
+    "defensive",
+    "hymn"
+    ]
+  }
+}

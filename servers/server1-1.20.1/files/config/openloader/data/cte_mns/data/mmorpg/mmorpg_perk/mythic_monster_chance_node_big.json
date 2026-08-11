@@ -1,0 +1,15 @@
+{
+  "type": "SPECIAL",
+  "icon": "mmorpg:textures/gui/stat_icons/misc/mythic_monster_chance.png",
+  "id": "mythic_monster_chance_node_big",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "mythic_monster_chance",
+      "v1": 20.0
+    }
+  ]
+}

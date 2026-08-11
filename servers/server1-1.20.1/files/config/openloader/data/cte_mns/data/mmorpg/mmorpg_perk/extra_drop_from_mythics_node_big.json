@@ -1,0 +1,15 @@
+{
+  "type": "SPECIAL",
+  "icon": "mmorpg:textures/gui/stat_icons/misc/extra_drop_from_mythics.png",
+  "id": "extra_drop_from_mythics_node_big",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "extra_drop_from_mythics",
+      "v1": 10.0
+    }
+  ]
+}

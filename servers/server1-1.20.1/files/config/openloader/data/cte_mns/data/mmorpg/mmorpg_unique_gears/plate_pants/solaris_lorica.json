@@ -1,0 +1,39 @@
+{
+  "base_gear": "plate_pants",
+  "guid": "solaris_lorica",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "obelisk",
+  "min_drop_lvl": 10,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 2.0,
+      "stat": "strength"
+    },
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "chaos_doesnt_bypass_magic_shield"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "chaos_resist"
+    }
+  ],
+  "weight": 1000
+}

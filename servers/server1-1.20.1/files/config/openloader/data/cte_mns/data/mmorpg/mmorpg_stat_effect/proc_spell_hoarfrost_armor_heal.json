@@ -1,0 +1,9 @@
+{
+  "id": "proc_spell_hoarfrost_armor_heal",
+  "pos": "CASTER",
+  "ser": "proc_spell",
+  "spellId": "hoarfrost_armor_heal",
+  "source": "Source",
+  "target": "Target",
+  "use_resource_costs": false
+}

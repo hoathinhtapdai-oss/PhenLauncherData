@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/spells/passives/p_negative_effect_sang.png",
+  "id": "p_negative_effect_sang",
+  "is_entry": false,
+  "max_lvls": 8,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "inc_effect_of_negative_buff_given",
+      "v1": 2.0
+    }
+  ]
+}

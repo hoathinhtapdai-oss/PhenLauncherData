@@ -1,0 +1,45 @@
+{
+  "base_gear": "ring",
+  "guid": "unholy_band_meditation",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "uber",
+  "min_drop_lvl": 60,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "plus_lvl_all_spells"
+    },
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "learn_meditation"
+    },
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 6.0,
+      "stat": "health"
+    },
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 6.0,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 1.0,
+      "stat": "all_attributes"
+    }
+  ],
+  "weight": 200
+}

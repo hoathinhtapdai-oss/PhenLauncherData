@@ -1,0 +1,10 @@
+{
+  "atlas_points_reward": 0,
+  "dungeon": "cement",
+  "id": "cement",
+  "is_pinnacle_unlock": false,
+  "min_rarity": "",
+  "min_tier": 0,
+  "require_uber": false,
+  "starting_node": false
+}

@@ -1,0 +1,9 @@
+{
+  "base": 0.0,
+  "id": "shrine_content",
+  "is_percent": true,
+  "map_content_id": "shrine",
+  "max": 1000.0,
+  "min": 0.0,
+  "serializer": "content_weight"
+}

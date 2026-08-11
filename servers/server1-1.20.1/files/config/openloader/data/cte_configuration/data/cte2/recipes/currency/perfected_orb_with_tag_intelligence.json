@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "mmorpg:stone/5"
+    },
+    "Y": {
+      "item": "ancient_obelisks:ancient_envy"
+    },
+    "O": {
+      "item": "mmorpg:currency/common_to_epic_with_tag_intelligence"
+    }
+  },
+  "pattern": [
+    "YXY",
+    "XOX",
+    "YXY"
+  ],
+  "result": {
+    "item": "mmorpg:currency/perfected_orb_with_tag_intelligence"
+  },
+  "show_notification": true
+}

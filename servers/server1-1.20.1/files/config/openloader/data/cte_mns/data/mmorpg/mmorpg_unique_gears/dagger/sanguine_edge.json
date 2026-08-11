@@ -1,0 +1,57 @@
+{
+  "base_gear": "dagger",
+  "guid": "sanguine_edge",
+  "flavor_text": "",
+  "force_item_id": "cte2modpackarmors:blood_glass_sword",
+  "league": "",
+  "min_drop_lvl": 30,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": -50.0,
+      "min": -50.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 2.0,
+      "stat": "total_damage_per_perc_of_health"
+    },
+    {
+      "type": "FLAT",
+      "max": 16.0,
+      "min": 12.0,
+      "stat": "health_regen"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 1.0,
+      "stat": "lifesteal"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 1.0,
+      "stat": "spell_lifesteal"
+    },
+    {
+      "type": "MORE",
+      "max": -100.0,
+      "min": -100.0,
+      "stat": "heal_effect_on_self"
+    },
+    {
+      "type": "FLAT",
+      "max": -15.0,
+      "min": -15.0,
+      "stat": "max_fire_resist"
+    }
+  ],
+  "weight": 1000
+}

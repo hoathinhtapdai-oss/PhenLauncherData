@@ -1,0 +1,160 @@
+{
+  "entries": [
+    {
+      "type": "MEAT",
+      "effects": [
+        {
+          "effect": "mine_and_meals:meat_1",
+          "level": 0,
+          "time": 12000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "minecraft:mutton"
+        },
+        {
+          "item": "minecraft:porkchop"
+        },
+        {
+          "item": "minecraft:beef"
+        }
+      ],
+      "max_time": 240,
+      "min_time": 180,
+      "nutrition": 10,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 3,
+      "stir_time": 80
+    },
+    {
+      "type": "MEAT",
+      "effects": [
+        {
+          "effect": "mine_and_meals:meat_1",
+          "level": 0,
+          "time": 12000
+        }
+      ],
+      "ingredient": {
+        "item": "minecraft:porkchop"
+      },
+      "max_time": 360,
+      "min_time": 240,
+      "nutrition": 10,
+      "overcook_penalty": 0.3,
+      "raw_penalty": 0.5,
+      "size": 3,
+      "stir_time": 80
+    },
+    {
+      "type": "MEAT",
+      "effects": [
+        {
+          "effect": "mine_and_meals:meat_1",
+          "level": 0,
+          "time": 12000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "minecraft:chicken"
+        },
+        {
+          "item": "minecraft:rabbit"
+        }
+      ],
+      "max_time": 240,
+      "min_time": 180,
+      "nutrition": 8,
+      "overcook_penalty": 0.3,
+      "raw_penalty": 1.0,
+      "size": 2,
+      "stir_time": 80
+    },
+    {
+      "type": "MEAT",
+      "effects": [
+        {
+          "effect": "mine_and_meals:dairy_1",
+          "level": 0,
+          "time": 18000
+        }
+      ],
+      "ingredient": {
+        "item": "minecraft:egg"
+      },
+      "max_time": 240,
+      "min_time": 60,
+      "nutrition": 8,
+      "overcook_penalty": 0.2,
+      "raw_penalty": 0.2,
+      "size": 1,
+      "stir_time": 80
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 18000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "minecraft:cod"
+        },
+        {
+          "item": "minecraft:salmon"
+        },
+        {
+          "item": "minecraft:tropical_fish"
+        }
+      ],
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 12,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "minecraft:nausea",
+          "level": 0,
+          "time": 100
+        },
+        {
+          "effect": "minecraft:hunger",
+          "level": 0,
+          "time": 100
+        },
+        {
+          "effect": "minecraft:poison",
+          "level": 0,
+          "time": 100
+        },
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 18000
+        }
+      ],
+      "ingredient": {
+        "item": "minecraft:pufferfish"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 5,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 1,
+      "stir_time": 40
+    }
+  ]
+}

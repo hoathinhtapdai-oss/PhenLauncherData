@@ -1,0 +1,52 @@
+{
+    "entries": [
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fruit_1",
+                    "level": 0,
+                    "time": 12000
+                }
+            ],
+            "ingredient": {
+                "item": "outer_end:cured_chorus_fruit"
+            },
+            "max_time": 80,
+            "min_time": 0,
+            "nutrition": 3,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "VEG",
+            "effects": [],
+            "ingredient": {
+                "item": "outer_end:cured_chorus_fruit"
+            },
+            "max_time": 80,
+            "min_time": 0,
+            "nutrition": 5,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "VEG",
+            "effects": [],
+            "ingredient": {
+                "item": "outer_end:azure_berries"
+            },
+            "max_time": 80,
+            "min_time": 0,
+            "nutrition": 5,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0,
+            "size": 1,
+            "stir_time": 60
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "spell_has_tag_not_soul_wound",
+  "is": false,
+  "ser": "spell_has_tag",
+  "tag": {
+    "id": "soul_wound"
+  }
+}

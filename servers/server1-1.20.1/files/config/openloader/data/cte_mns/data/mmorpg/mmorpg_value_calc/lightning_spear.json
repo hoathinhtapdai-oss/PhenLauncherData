@@ -1,0 +1,33 @@
+{
+  "base": {
+    "max": 2.0,
+    "min": 1.4
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 2.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 1.98,
+      "min": 1.386
+    },
+    "stat": "health"
+  },
+  "id": "lightning_spear",
+  "target_stat_scalings": [],
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 1.98,
+        "min": 1.386
+      },
+      "stat": "weapon_damage"
+    },
+    {
+      "multi": {
+        "max": 0.12,
+        "min": 0.084
+      },
+      "stat": "mana"
+    }
+  ]
+}

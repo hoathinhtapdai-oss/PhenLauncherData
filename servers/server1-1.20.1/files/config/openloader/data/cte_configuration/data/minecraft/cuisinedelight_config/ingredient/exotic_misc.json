@@ -1,0 +1,224 @@
+{
+    "entries": [
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "minecraft:strength",
+                    "level": 0,
+                    "time": 6000
+                },
+                {
+                    "effect": "mine_and_meals:spice_1",
+                    "level": 0,
+                    "time": 8000
+                }
+            ],
+            "ingredient": {
+                "item": "minecraft:blaze_powder"
+            },
+            "max_time": 80,
+            "min_time": 40,
+            "nutrition": 0,
+            "overcook_penalty": 0.9,
+            "raw_penalty": 0.8,
+            "size": 0,
+            "stir_time": 60
+        },
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "minecraft:speed",
+                    "level": 0,
+                    "time": 3000
+                },
+                {
+                    "effect": "minecraft:poison",
+                    "level": 0,
+                    "time": 1200
+                },
+                {
+                    "effect": "mine_and_meals:sparkling_1",
+                    "level": 0,
+                    "time": 8000
+                }
+            ],
+            "ingredient": {
+                "item": "minecraft:redstone"
+            },
+            "max_time": 160,
+            "min_time": 60,
+            "nutrition": 0,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.9,
+            "size": 0,
+            "stir_time": 100
+        },
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "minecraft:night_vision",
+                    "level": 0,
+                    "time": 2000
+                },
+                {
+                    "effect": "minecraft:glowing",
+                    "level": 0,
+                    "time": 3000
+                },
+                {
+                    "effect": "mine_and_meals:sparkling_2",
+                    "level": 0,
+                    "time": 3000
+                }                
+            ],
+            "ingredient": {
+                "item": "minecraft:glowstone_dust"
+            },
+            "max_time": 120,
+            "min_time": 40,
+            "nutrition": 0,
+            "overcook_penalty": 0.4,
+            "raw_penalty": 0.9,
+            "size": 0,
+            "stir_time": 120
+        },
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fish_1",
+                    "level": 0,
+                    "time": 6000
+                },
+                {
+                    "effect": "mine_and_meals:ice_1",
+                    "level": 0,
+                    "time": 8000
+                }
+            ],
+            "ingredient": {
+                "item": "minecraft:ink_sac"
+            },
+            "max_time": 240,
+            "min_time": 100,
+            "nutrition": 1,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 0,
+            "stir_time": 60
+        },
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "minecraft:glowing",
+                    "level": 0,
+                    "time": 3000
+                },
+                {
+                    "effect": "mine_and_meals:fish_1",
+                    "level": 0,
+                    "time": 6000
+                },
+                {
+                    "effect": "mine_and_meals:ice_1",
+                    "level": 0,
+                    "time": 8000
+                }
+            ],
+            "ingredient": {
+                "item": "minecraft:glow_ink_sac"
+            },
+            "max_time": 240,
+            "min_time": 100,
+            "nutrition": 1,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 0,
+            "stir_time": 60
+        },
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "minecraft:poison",
+                    "level": 0,
+                    "time": 1800
+                },
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 8000
+                }
+            ],
+            "ingredient": {
+                "item": "minecraft:gunpowder"
+            },
+            "max_time": 0,
+            "min_time": 0,
+            "nutrition": 6,
+            "overcook_penalty": 0.1,
+            "raw_penalty": 0.1,
+            "size": 0,
+            "stir_time": 160
+        },
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "born_in_chaos_v1:detonation",
+                    "level": 0,
+                    "time": 600
+                }
+            ],
+            "ingredient": {
+                "item": "minecraft:tnt"
+            },
+            "max_time": 1000,
+            "min_time": 0,
+            "nutrition": 3,
+            "overcook_penalty": 0.1,
+            "raw_penalty": 0.1,
+            "size": 4,
+            "stir_time": 100
+        },
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "born_in_chaos_v1:detonation",
+                    "level": 0,
+                    "time": 24000
+                },
+                {
+                    "effect": "minecraft:resistance",
+                    "level": 4,
+                    "time": 1800
+                },
+                {
+                    "effect": "minecraft:regeneration",
+                    "level": 2,
+                    "time": 1800
+                },
+                {
+                    "effect": "mine_and_meals:strange_2",
+                    "level": 0,
+                    "time": 16000
+                }
+            ],
+            "ingredient": {
+                "item": "minecraft:creeper_head"
+            },
+            "max_time": 180,
+            "min_time": 120,
+            "nutrition": 14,
+            "overcook_penalty": 0.6,
+            "raw_penalty": 0.4,
+            "size": 3,
+            "stir_time": 80
+        }
+    ]
+}

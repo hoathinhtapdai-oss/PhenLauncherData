@@ -1,0 +1,7 @@
+{
+  "id": "give_sacrifice_to_target",
+  "effect": "sacrifice",
+  "give_to": "Target",
+  "seconds": 10,
+  "ser": "give_exile_effect"
+}

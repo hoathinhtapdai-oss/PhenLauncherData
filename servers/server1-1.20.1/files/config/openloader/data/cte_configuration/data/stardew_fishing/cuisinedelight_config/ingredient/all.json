@@ -1,0 +1,264 @@
+{
+  "entries": [
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:grain_2",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:grain_1",
+          "level": 0,
+          "time": 24000
+        }
+      ],
+      "ingredient": {
+        "item": "stardew_fishing:goliath_grouper"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 16,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:meat_2",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:vegetable_2",
+          "level": 0,
+          "time": 24000
+        }
+      ],
+      "ingredient": {
+        "item": "stardew_fishing:vampire_payara"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 16,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:sugar_2",
+          "level": 0,
+          "time": 24000
+        }
+      ],
+      "ingredient": {
+        "item": "stardew_fishing:golden_snook"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 16,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:fried_2",
+          "level": 0,
+          "time": 24000
+        }
+      ],
+      "ingredient": {
+        "item": "stardew_fishing:sabretoothed_tigerfish"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 16,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:alcohol_2",
+          "level": 0,
+          "time": 24000
+        }
+      ],
+      "ingredient": {
+        "item": "stardew_fishing:chromatic_arapaima"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 16,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:ice_2",
+          "level": 0,
+          "time": 24000
+        }
+      ],
+      "ingredient": {
+        "item": "stardew_fishing:cyclops_mahimahi"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 16,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:sparkling_2",
+          "level": 0,
+          "time": 24000
+        }
+      ],
+      "ingredient": {
+        "item": "stardew_fishing:storm_tarpon"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 16,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:spice_2",
+          "level": 0,
+          "time": 24000
+        }
+      ],
+      "ingredient": {
+        "item": "stardew_fishing:blazing_oarfish"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 16,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:sugar_2",
+          "level": 0,
+          "time": 24000
+        }
+      ],
+      "ingredient": {
+        "item": "stardew_fishing:crystalline_snakehead"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 16,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "type": "SEAFOOD",
+      "effects": [
+        {
+          "effect": "mine_and_meals:fish_1",
+          "level": 0,
+          "time": 24000
+        },
+        {
+          "effect": "mine_and_meals:tea_2",
+          "level": 0,
+          "time": 24000
+        }
+      ],
+      "ingredient": {
+        "item": "stardew_fishing:demon_gar"
+      },
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 16,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    }
+  ]
+}

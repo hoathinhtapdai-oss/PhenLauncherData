@@ -1,0 +1,11 @@
+{
+  "id": "either_ailment",
+  "ifs": [
+    "is_ailment_freeze",
+    "is_ailment_bleed",
+    "is_ailment_burn",
+    "is_ailment_electrify",
+    "is_ailment_poison"
+  ],
+  "ser": "either_is_true"
+}

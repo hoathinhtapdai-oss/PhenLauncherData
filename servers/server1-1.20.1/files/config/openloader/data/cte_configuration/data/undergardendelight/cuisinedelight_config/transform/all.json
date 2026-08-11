@@ -1,0 +1,25 @@
+{
+  "fluidTransform": {},
+  "itemTransform": {
+    "undergardendelight:raw_gloomper_cuts": {
+      "next": "undergardendelight:cooked_gloomper_cuts",
+      "stage": "COOKED"
+    },
+    "undergardendelight:dweller_meat_slice": {
+      "next": "undergardendelight:cooked_dweller_meat_slice",
+      "stage": "COOKED"
+    },
+    "undergardendelight:raw_gwibfillet": {
+      "next": "undergardendelight:cooked_gwibfillet",
+      "stage": "COOKED"
+    },
+    "undergardendelight:raw_gwibsteak": {
+      "next": "undergardendelight:cooked_gwibsteak",
+      "stage": "COOKED"
+    },
+    "undergardendelight:greater_dweller_hamleg": {
+      "next": "undergardendelight:cooked_greater_dweller_hamleg",
+      "stage": "COOKED"
+    },
+  }
+}

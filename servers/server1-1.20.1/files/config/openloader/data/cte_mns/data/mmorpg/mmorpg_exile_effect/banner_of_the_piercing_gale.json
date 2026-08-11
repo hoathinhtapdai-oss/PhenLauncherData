@@ -1,0 +1,32 @@
+{
+  "type": "negative",
+  "id": "banner_of_the_piercing_gale",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": -30.0,
+      "min": -10.0,
+      "stat": "armor"
+    },
+    {
+      "type": "FLAT",
+      "max": -21.0,
+      "min": -7.0,
+      "stat": "water_resist"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "negative",
+    "banner",
+    "offensive"
+    ]
+  }
+}

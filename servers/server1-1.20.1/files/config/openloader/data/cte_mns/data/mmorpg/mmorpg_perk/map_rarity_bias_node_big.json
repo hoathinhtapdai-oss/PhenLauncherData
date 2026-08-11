@@ -1,0 +1,15 @@
+{
+  "type": "SPECIAL",
+  "icon": "mmorpg:textures/gui/stat_icons/misc/map_rarity_bias.png",
+  "id": "map_rarity_bias_node_big",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "map_rarity_bias",
+      "v1": 8.0
+    }
+  ]
+}

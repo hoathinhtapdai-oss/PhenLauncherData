@@ -1,0 +1,39 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+        "give_projection_when_hit_to_target"
+      ],
+      "events": [
+        "on_damage"
+      ],
+      "ifs": [
+        "attack_type_is_hit",
+        "is_is_dodged_true_is_false",
+        "is_target_under_projection_on_dodge_is_false",
+        "spell_has_tag_self_damage_is_false"
+      ],
+      "order": "final_damage",
+      "side": "Target"
+    }
+  ],
+  "ele": "Physical",
+  "format": "aqua",
+  "group": "Misc",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "projection_when_hit",
+  "is_long": true,
+  "is_perc": false,
+  "max": 1.0,
+  "min": 0.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

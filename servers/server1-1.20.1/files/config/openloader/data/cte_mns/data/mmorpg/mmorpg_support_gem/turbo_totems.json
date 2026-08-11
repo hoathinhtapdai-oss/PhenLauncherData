@@ -1,0 +1,22 @@
+{
+  "id": "turbo_totems",
+  "manaMulti": 1.4,
+  "min_lvl": 30,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "totem_count"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 5.0,
+      "stat": "totem_spell_dmg"
+    }
+  ],
+  "style": "STR",
+  "weight": 1000
+}

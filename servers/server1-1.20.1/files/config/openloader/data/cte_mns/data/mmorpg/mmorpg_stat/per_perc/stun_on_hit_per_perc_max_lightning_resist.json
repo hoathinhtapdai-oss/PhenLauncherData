@@ -1,0 +1,15 @@
+{
+  "data": {
+    "add_to": "stun_on_hit",
+    "adder_stat": "max_lightning_resist",
+    "base": 0.0,
+    "ele": "Physical",
+	"priority": 100,
+    "id": "stun_on_hit_per_perc_max_lightning_resist",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

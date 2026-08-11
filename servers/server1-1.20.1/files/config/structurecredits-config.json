@@ -1,0 +1,27 @@
+{
+  "active": true,
+  "showOnlyOneTime": false,
+  "chatMessage": false,
+  "showCreator": false,
+  "requireDifferentStructure": true,
+  "continuousDisplay": false,
+  "autoCalculateDuration": true,
+  "textSize": 1.0,
+  "labelColor": 11184810,
+  "nameColor": 16777215,
+  "displayDuration": 60,
+  "displayPosition": "CENTER",
+  "displayOffsetX": 0,
+  "displayOffsetY": 10,
+  "customStructureName": {
+  },
+  "dontShowAll": [
+    "minecraft:",
+    "dimdungeons:",
+    "mmorpg:"
+  ],
+  "dontShow": [
+    "minecraft:plains_village",
+    "minecraft:desert_village"
+  ]
+}

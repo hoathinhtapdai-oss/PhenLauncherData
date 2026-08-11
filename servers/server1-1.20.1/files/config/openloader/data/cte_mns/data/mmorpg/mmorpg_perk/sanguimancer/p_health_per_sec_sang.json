@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/spells/passives/p_health_per_sec_sang.png",
+  "id": "p_health_per_sec_sang",
+  "is_entry": false,
+  "max_lvls": 8,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "health_per_sec",
+      "v1": 0.25
+    }
+  ]
+}

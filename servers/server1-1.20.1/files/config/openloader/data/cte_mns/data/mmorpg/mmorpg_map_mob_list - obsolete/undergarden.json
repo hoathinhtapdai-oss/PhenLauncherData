@@ -1,0 +1,58 @@
+{
+  "id": "undergarden",
+  "mobs": [
+    {
+      "type": "undergarden:rotwalker",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+        ]
+      },
+      "weight": 250
+    },
+    {
+      "type": "undergarden:rotbeast",
+      "canBeBoss": true,
+      "tags": {
+        "tags": [
+          "undead"
+        ]
+      },
+      "weight": 50
+    },
+    {
+      "type": "undergarden:sploogie",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "ranged"
+        ]
+      },
+      "weight": 150
+    },
+    {
+      "type": "undergarden:nargoyle",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+        ]
+      },
+      "weight": 125
+    },
+    {
+      "type": "undergarden:rotling",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [         
+        ]
+      },
+      "weight": 250
+    }
+  ],
+  "possible_dungeon_tags": {
+    "tags": [
+      "undergarden"
+    ]
+  },
+  "weight": 1000
+}

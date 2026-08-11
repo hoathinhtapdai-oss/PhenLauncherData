@@ -1,0 +1,8 @@
+{
+  "entityId": "irons_spellbooks:summoned_frog",
+  "useWolfLikeAI": false,
+  "takeOwnerDamage": true,
+  "takeOtherPlayerDamage": false,
+  "takeMobDamage": true,
+  "isProtectedByNameTags": false
+}

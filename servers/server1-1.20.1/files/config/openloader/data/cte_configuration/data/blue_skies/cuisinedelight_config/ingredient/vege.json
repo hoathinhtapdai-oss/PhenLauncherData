@@ -1,0 +1,246 @@
+{
+    "entries": [
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fruit_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "blue_skies:brewberry"
+                },
+                {
+                    "item": "blue_skies:black_brewberry"
+                },
+                {
+                    "item": "blue_skies:pink_brewberry"
+                }
+            ],
+            "max_time": 80,
+            "min_time": 0,
+            "nutrition": 4,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0.0,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fruit_1",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:sparkling_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "blue_skies:crescent_fruit"
+                }
+            ],
+            "max_time": 80,
+            "min_time": 0,
+            "nutrition": 5,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0.0,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fruit_1",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "blue_skies:pine_fruit"
+                }
+            ],
+            "max_time": 80,
+            "min_time": 0,
+            "nutrition": 5,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0.0,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fruit_1",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:fried_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "blue_skies:scalefruit"
+                }
+            ],
+            "max_time": 70,
+            "min_time": 0,
+            "nutrition": 4,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0.0,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fruit_1",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:tea_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "blue_skies:winter_leaves"
+                }
+            ],
+            "max_time": 240,
+            "min_time": 0,
+            "nutrition": 4,
+            "overcook_penalty": 0.2,
+            "raw_penalty": 0.0,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:vegetable_1",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:ice_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "blue_skies:cryo_root"
+                }
+            ],
+            "max_time": 160,
+            "min_time": 0,
+            "nutrition": 5,
+            "overcook_penalty": 0.2,
+            "raw_penalty": 0.0,
+            "size": 2,
+            "stir_time": 60
+        },
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:vegetable_1",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:grain_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "blue_skies:solnut"
+                }
+            ],
+            "max_time": 160,
+            "min_time": 0,
+            "nutrition": 5,
+            "overcook_penalty": 0.2,
+            "raw_penalty": 0.0,
+            "size": 2,
+            "stir_time": 60
+        },
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:vegetable_1",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:spice_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "blue_skies:fiery_beans"
+                }
+            ],
+            "max_time": 360,
+            "min_time": 180,
+            "nutrition": 8,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 60
+        },
+        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fruit_1",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:sugar_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": {
+                "item": "blue_skies:comet_berries"
+            },
+            "max_time": 80,
+            "min_time": 0,
+            "nutrition": 4,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0,
+            "size": 1,
+            "stir_time": 60
+        }
+    ]
+}

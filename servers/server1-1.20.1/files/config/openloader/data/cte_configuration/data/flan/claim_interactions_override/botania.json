@@ -1,0 +1,73 @@
+{
+  "type": "flan:block_interact",
+  "values": [
+    {
+      "entry": "botania:water_rod",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:exchange_rod",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:fire_rod",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:rainbow_rod",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:orechid",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:orechid_ignem",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:rannuncarpus",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:dreadthorn",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:piston_relay",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:terra_pick",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:mana_gun",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:lens_influence",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:lens_light",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:horn_grass",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:horn_leaves",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:horn_snow",
+      "permission": "flan:interact_block"
+    },
+    {
+      "entry": "botania:drum_wild",
+      "permission": "flan:interact_block"
+    }
+  ]
+}
