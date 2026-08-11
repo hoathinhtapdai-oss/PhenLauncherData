@@ -16,24 +16,24 @@ making configuration files easier to read and maintain.
 ================================================================================
 
 config/EntityFishingDrops/
-??? README.txt (this file)
-??? Active_Events.json (tracks enabled events)
-??? Normal Drops/
-?   ??? Global_Fishing_Drops.json (always active global drops)
-?   ??? Global_Fishing_Drops.example (documentation)
-?   ??? Custom_Global_File.json (your custom global files)
-?   ??? Drops/
-?       ??? minecraft_cod.json (item-specific drops)
-?       ??? minecraft_salmon.json
-??? Event Drops/
-    ??? Easter/
-    ?   ??? Global_Easter_Drops.json (easter global drops)
-    ?   ??? Drops/
-    ?       ??? minecraft_salmon.json (easter item drops)
-    ??? Winter/
-    ??? Summer/
-    ??? Halloween/
-    ??? Christmas/
+├── README.txt (this file)
+├── Active_Events.json (tracks enabled events)
+├── Normal Drops/
+│   ├── Global_Fishing_Drops.json (always active global drops)
+│   ├── Global_Fishing_Drops.example (documentation)
+│   ├── Custom_Global_File.json (your custom global files)
+│   └── Drops/
+│       ├── minecraft_cod.json (item-specific drops)
+│       └── minecraft_salmon.json
+└── Event Drops/
+    ├── Easter/
+    │   ├── Global_Easter_Drops.json (easter global drops)
+    │   └── Drops/
+    │       └── minecraft_salmon.json (easter item drops)
+    ├── Winter/
+    ├── Summer/
+    ├── Halloween/
+    └── Christmas/
 
 ================================================================================
                               COMMANDS
