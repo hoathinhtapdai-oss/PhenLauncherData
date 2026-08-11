@@ -1,0 +1,46 @@
+{
+  "author": "Owls wife",
+  "data": {
+    "max_rooms": 0,
+    "min_rooms": 0,
+    "room_size": 16,
+    "curved_hallways": [
+    "ch_fairy1",
+    "ch_fairy2"
+    ],
+    "ends": [
+    "end_fairy1",
+    "end_fairy2",
+    "end_fairy3"
+    ],
+    "entrances": [
+    "e_fairy1"
+    ],
+    "folder": "fairy",
+    "four_ways": [
+    "4w_fairy1",
+    "4w_fairy2",
+    "4w_fairy3"
+    ],
+    "mob_list_tag_check": {
+      "checks": [
+        {
+          "check": "HAS_ANY",
+          "tags": [
+		    "fairy"
+          ]
+        }
+      ]
+    },
+    "straight_hallways": [
+    "sh_fairy1",
+    "sh_fairy2"
+    ],
+    "triple_hallway": [
+    "3h_fairy1",
+    "3h_fairy2"
+    ]
+  },
+  "id": "fairy",
+  "weight": 1000
+}

@@ -1,0 +1,32 @@
+{
+  "exp": 175,
+  "id": "food_rare_energy4",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/farming/4",
+      "num": 3
+    },
+    {
+      "type": "ITEM",
+      "id": "corn_delight:corn",
+      "num": 3
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/2",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_iron",
+      "num": 1
+	}
+  ],
+  "set_tier_nbt": true,
+  "profession": "cooking",
+  "requires_pinnacle_unlock": false,
+  "result": "mmorpg:food/rare_energy",
+  "result_num": 1,
+  "tier": 4
+}

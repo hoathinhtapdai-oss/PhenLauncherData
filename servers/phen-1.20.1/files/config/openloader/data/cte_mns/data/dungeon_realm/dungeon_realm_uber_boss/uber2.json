@@ -1,0 +1,27 @@
+{
+  "id": "uber2",
+  "possible_bosses": [
+    "minecraft:wither",
+    "stalwart_dungeons:awful_ghast",
+    "stalwart_dungeons:nether_keeper",
+    "blue_skies:arachnarch",
+	"twilightforest:minoshroom",
+	"twilightforest:snow_queen",
+	"mowziesmobs:frostmaw",
+	"born_in_chaos_v1:nightmare_stalker",
+	"infinitygolem:infinity_golem"
+  ],
+  "possible_pinnacle_bosses": [
+	"mowziesmobs:umvuthi",
+    "blue_skies:starlit_crusher",
+	"twilightforest:snow_queen"
+  ],
+  "structure_data": {
+    "rooms_folder": "dungeon_realm:uber/abyss",
+    "size": 3,
+    "teleport_offset_x": 48,
+    "teleport_offset_y": -4,
+    "teleport_offset_z": 16
+  },
+  "weight": 1000
+}

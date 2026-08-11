@@ -1,0 +1,16 @@
+{
+  "id": "targeted_hate",
+  "manaMulti": 1.2,
+  "min_lvl": 20,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "MORE",
+      "max": 21.0,
+      "min": 7.0,
+      "stat": "damage_to_cursed"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

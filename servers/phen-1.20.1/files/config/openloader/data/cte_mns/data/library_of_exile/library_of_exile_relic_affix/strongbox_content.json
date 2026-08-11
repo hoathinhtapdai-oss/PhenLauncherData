@@ -1,0 +1,12 @@
+{
+  "id": "strongbox_content",
+  "mods": [
+    {
+      "max": 100.0,
+      "min": 33.0,
+      "stat": "strongbox_content"
+    }
+  ],
+  "relic_type": "mmorpg",
+  "weight": 1000
+}

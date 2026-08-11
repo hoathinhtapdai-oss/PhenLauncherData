@@ -1,0 +1,7 @@
+{
+  "effect": "projection_on_dodge",
+  "id": "is_target_under_projection_on_dodge_is_false",
+  "is": false,
+  "ser": "is_under_exile_effect",
+  "side": "Target"
+}

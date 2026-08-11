@@ -1,0 +1,6 @@
+{
+  "effect": "snow_tracked",
+  "id": "is_target_under_snow_tracked",
+  "ser": "is_under_exile_effect",
+  "side": "Target"
+}

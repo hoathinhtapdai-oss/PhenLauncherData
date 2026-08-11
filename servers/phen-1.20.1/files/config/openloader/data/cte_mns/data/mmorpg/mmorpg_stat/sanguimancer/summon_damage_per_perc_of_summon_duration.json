@@ -1,0 +1,15 @@
+{
+  "data": {
+    "add_to": "summon_damage",
+    "adder_stat": "summon_duration",
+    "base": 0.0,
+    "ele": "Physical",
+	"priority": 100,
+    "id": "summon_damage_per_perc_of_summon_duration",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

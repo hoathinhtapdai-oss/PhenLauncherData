@@ -1,0 +1,12 @@
+{
+  "affixes": 3,
+  "base_data": {
+    "id": "legendary",
+    "text_format": "GOLD",
+    "tier": 4,
+    "weight": 9
+  },
+  "max_affix_percent": 90,
+  "max_uses": 9,
+  "min_affix_percent": 60
+}

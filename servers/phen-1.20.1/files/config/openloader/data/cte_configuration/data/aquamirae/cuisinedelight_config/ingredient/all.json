@@ -1,0 +1,49 @@
+{
+    "entries": [
+        {
+            "type": "SEAFOOD",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fish_1",
+                    "level": 0,
+                    "time": 24000
+                }
+            ],
+            "ingredient": {
+                "item": "aquamirae:spinefish"
+            },
+            "max_time": 120,
+            "min_time": 60,
+            "nutrition": 12,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 40
+        },
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "minecraft:luck",
+                    "level": 2,
+                    "time": 24000
+                },
+                {
+                    "effect": "mine_and_meals:sparkling_2",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": {
+                "item": "obscure_api:astral_dust"
+            },
+            "max_time": 360,
+            "min_time": 0,
+            "nutrition": 16,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0,
+            "size": 0,
+            "stir_time": 120
+        }
+    ]
+}

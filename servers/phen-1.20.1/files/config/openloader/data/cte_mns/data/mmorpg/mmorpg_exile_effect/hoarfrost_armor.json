@@ -1,0 +1,37 @@
+{
+  "type": "beneficial",
+  "id": "hoarfrost_armor",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "armor"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "move_speed_per_perc_of_cold_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 25.0,
+      "stat": "proc_hoarfrost_armor_heal_on_basic_hit"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "positive",
+    "defensive"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "spell_has_tag_sanguine_aura",
+  "ser": "spell_has_tag",
+  "tag": {
+    "id": "sanguine_aura"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "type": "negative",
+  "id": "drain",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": [
+    "drain"
+    ]
+  },
+  "spell": {
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Shadow",
+				"disable_knockback": true,
+                "value_calculation": "drain"
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 3.0,
+                "particle_type": "born_in_chaos_v1:intoxicatingsmoke",
+                "radius": 1.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "sanguine_aura",
+              "is_false": true
+            }            
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "abyssal_aura",
+              "is_false": true
+            }            
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "plague_aura",
+              "is_false": true
+            }            
+            }
+          ],
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ]
+        },
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Physical",
+				"disable_knockback": true,
+                "value_calculation": "drain"
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",         
+                "particle_count": 3.0,
+                "particle_type": "born_in_chaos_v1:magichit",
+                "radius": 1.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "sanguine_aura"
+              }            
+            }
+          ],
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ]
+        },
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Shadow",
+				"disable_knockback": true,
+                "value_calculation": "drain"
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",              
+                "particle_count": 3.0,
+                "particle_type": "minecraft:witch",
+                "radius": 1.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "abyssal_aura"
+              }            
+            }
+          ],
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ]
+        },
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Physical",
+				"disable_knockback": true,
+                "value_calculation": "drain"
+              }
+            },
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",            
+                "particle_count": 3.0,
+                "particle_type": "born_in_chaos_v1:infernal_surge",
+                "radius": 1.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            },
+            {
+            "type": "caster_has_mns_effect",
+            "map": {
+              "exile_potion_id": "plague_aura"
+              }            
+            }
+          ],
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ]
+        }
+      ]
+    },
+    "on_cast": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [],
+  "tags": {
+    "tags": [
+    "negative",
+    "drain",
+    "dot"
+    ]
+  }
+}

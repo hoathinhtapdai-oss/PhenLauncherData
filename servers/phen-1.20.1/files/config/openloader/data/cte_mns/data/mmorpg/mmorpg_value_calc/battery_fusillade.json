@@ -1,0 +1,33 @@
+{
+  "base": {
+    "max": 2.0,
+    "min": 1.4
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 2.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 0.825,
+      "min": 0.5775
+    },
+    "stat": "health"
+  },
+  "id": "battery_fusillade",
+  "target_stat_scalings": [],
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.825,
+        "min": 0.5775
+      },
+      "stat": "weapon_damage"
+    },
+    {
+      "multi": {
+        "max": 0.09,
+        "min": 0.063
+      },
+      "stat": "mana"
+    }
+  ]
+}

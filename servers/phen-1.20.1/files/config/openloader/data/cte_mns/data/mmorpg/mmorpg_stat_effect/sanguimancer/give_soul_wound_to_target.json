@@ -1,0 +1,7 @@
+{
+  "effect": "soul_wound",
+  "id": "give_soul_wound_to_target",
+  "give_to": "Target",
+  "ser": "give_exile_effect",
+  "seconds": 5
+}

@@ -1,0 +1,12 @@
+{
+  "affixes": 4,
+  "base_data": {
+    "id": "mythic",
+    "text_format": "DARK_PURPLE",
+    "tier": 5,
+    "weight": 3
+  },
+  "max_affix_percent": 100,
+  "max_uses": 10,
+  "min_affix_percent": 75
+}

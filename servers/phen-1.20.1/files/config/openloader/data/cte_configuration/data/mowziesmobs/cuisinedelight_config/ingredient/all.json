@@ -1,0 +1,53 @@
+{
+    "entries": [
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "minecraft:night_vision",
+                    "level": 0,
+                    "time": 2000
+                },
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 12000
+                }
+            ],
+            "ingredient": {
+                "item": "mowziesmobs:glowing_jelly"
+            },
+            "max_time": 120,
+            "min_time": 0,
+            "nutrition": 2,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0,
+            "size": 1,
+            "stir_time": 40
+        },        {
+            "type": "VEG",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:vegetable_1",
+                    "level": 0,
+                    "time": 18000
+                },
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": {
+                "item": "mowziesmobs:foliaath_seed"
+            },
+            "max_time": 140,
+            "min_time": 60,
+            "nutrition": 6,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 40
+        }
+    ]
+}

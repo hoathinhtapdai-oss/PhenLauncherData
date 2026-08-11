@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/spells/passives/p_double_attack_chance_when_low_sang.png",
+  "id": "p_double_attack_chance_when_low_sang",
+  "is_entry": false,
+  "max_lvls": 8,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "double_attack_chance_when_low",
+      "v1": 3.0
+    }
+  ]
+}

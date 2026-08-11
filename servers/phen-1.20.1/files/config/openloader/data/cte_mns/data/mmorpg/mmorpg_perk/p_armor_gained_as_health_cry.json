@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/spells/passives/p_armor_gained_as_health_cry.png",
+  "id": "p_armor_gained_as_health_cry",
+  "is_entry": false,
+  "max_lvls": 8,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "health_per_perc_of_armor",
+      "v1": 1.25
+    }
+  ]
+}

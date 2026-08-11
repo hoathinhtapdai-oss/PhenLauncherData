@@ -1,0 +1,210 @@
+{
+    "entries": [
+        {
+            "type": "SEAFOOD",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fish_2",
+                    "level": 0,
+                    "time": 32000
+                }
+            ],
+            "ingredient": {
+                "item": "aquaculture:tuna"
+            },
+            "max_time": 320,
+            "min_time": 240,
+            "nutrition": 18,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 4,
+            "stir_time": 80
+        },
+        {
+            "type": "SEAFOOD",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fish_2",
+                    "level": 0,
+                    "time": 10000
+                }
+            ],
+            "ingredient": {
+                "item": "aquaculture:fish_fillet_raw"
+            },
+            "max_time": 100,
+            "min_time": 60,
+            "nutrition": 2,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 1,
+            "stir_time": 40
+        },
+        {
+            "type": "SEAFOOD",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fish_2",
+                    "level": 0,
+                    "time": 20000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "aquaculture:atlantic_cod"
+                },
+                {
+                    "tag": "aquaculturedelight:fillet_six"
+                }
+            ],
+            "max_time": 120,
+            "min_time": 60,
+            "nutrition": 12,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 40
+        },
+        {
+            "type": "SEAFOOD",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fish_2",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "tag": "aquaculturedelight:fillet_five"
+                }
+            ],
+            "max_time": 120,
+            "min_time": 60,
+            "nutrition": 10,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 40
+        },
+        {
+            "type": "SEAFOOD",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fish_2",
+                    "level": 0,
+                    "time": 16000
+                }
+            ],
+            "ingredient": [
+                {
+                    "tag": "aquaculturedelight:fillet_four"
+                }
+            ],
+            "max_time": 100,
+            "min_time": 40,
+            "nutrition": 8,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 40
+        },
+        {
+            "type": "SEAFOOD",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fish_2",
+                    "level": 0,
+                    "time": 14000
+                }
+            ],
+            "ingredient": [
+                {
+                    "tag": "aquaculturedelight:fillet_three"
+                }
+            ],
+            "max_time": 140,
+            "min_time": 40,
+            "nutrition": 6,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 40
+        },
+        {
+            "type": "SEAFOOD",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fish_2",
+                    "level": 0,
+                    "time": 12000
+                }
+            ],
+            "ingredient": [
+                {
+                    "tag": "aquaculturedelight:fillet_two"
+                }
+            ],
+            "max_time": 80,
+            "min_time": 40,
+            "nutrition": 4,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 40
+        },
+        {
+            "type": "SEAFOOD",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:fish_2",
+                    "level": 0,
+                    "time": 10000
+                }
+            ],
+            "ingredient": [
+                {
+                    "tag": "aquaculturedelight:fillet_one"
+                },
+                {
+                    "item": "aquaculture:goldfish"
+                }
+            ],
+            "max_time": 80,
+            "min_time": 40,
+            "nutrition": 2,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 40
+        },
+        {
+            "type": "SEAFOOD",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:meat_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "aquaculture:box_turtle"
+                },
+                {
+                    "item": "aquaculture:arrau_turtle"
+                },
+                {
+                    "item": "aquaculture:starshell_turtle"
+                }
+            ],
+            "max_time": 160,
+            "min_time": 40,
+            "nutrition": 6,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 3,
+            "stir_time": 60
+        }
+    ]
+}

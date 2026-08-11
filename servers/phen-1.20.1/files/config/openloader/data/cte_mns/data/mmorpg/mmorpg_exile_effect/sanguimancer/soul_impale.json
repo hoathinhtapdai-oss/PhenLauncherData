@@ -1,0 +1,56 @@
+{
+  "type": "negative",
+  "id": "soul_impale",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "spell": {
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 1.0,
+                "motion": "None",
+                "particle_count": 2.0,
+                "particle_type": "bosses_of_mass_destruction:downsparkle",
+                "radius": 1.0,
+                "shape": "CIRCLE_2D"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 4.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ]
+    },
+    "on_cast": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "attack_damage_received"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "negative"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "add_to": "all_lightning_damage",
+    "adder_stat": "water_penetration",
+    "base": 0.0,
+    "ele": "Physical",
+	"priority": 75,
+    "id": "all_lightning_damage_per_all_water_damage",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

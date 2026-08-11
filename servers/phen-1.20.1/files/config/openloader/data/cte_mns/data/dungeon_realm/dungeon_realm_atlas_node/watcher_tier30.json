@@ -1,0 +1,10 @@
+{
+  "atlas_points_reward": 1,
+  "dungeon": "watcher",
+  "id": "watcher_tier30",
+  "is_pinnacle_unlock": false,
+  "min_rarity": "",
+  "min_tier": 30,
+  "require_uber": false,
+  "starting_node": false
+}

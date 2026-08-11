@@ -1,0 +1,15 @@
+{
+  "type": "SPECIAL",
+  "icon": "mmorpg:textures/gui/stat_icons/misc/obelisk_event_chance.png",
+  "id": "obelisk_event_chance_node_big",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "obelisk_event_chance",
+      "v1": 5.0
+    }
+  ]
+}

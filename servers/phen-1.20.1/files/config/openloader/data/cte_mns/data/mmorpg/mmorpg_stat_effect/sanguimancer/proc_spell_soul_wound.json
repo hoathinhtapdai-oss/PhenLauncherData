@@ -1,0 +1,9 @@
+{
+  "id": "proc_spell_soul_wound",
+  "pos": "TARGET",
+  "ser": "proc_spell",
+  "source": "Source",
+  "spellId": "soul_wound",
+  "target": "Target",
+  "use_resource_costs": false
+}

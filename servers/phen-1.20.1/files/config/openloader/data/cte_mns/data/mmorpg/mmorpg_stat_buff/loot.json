@@ -1,0 +1,23 @@
+{
+  "id": "loot",
+  "mods": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 2.0,
+      "stat": "increased_quantity"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 4.0,
+      "stat": "mining_exp_bonus"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 4.0,
+      "stat": "husbandry_exp_bonus"
+    }
+  ]
+}

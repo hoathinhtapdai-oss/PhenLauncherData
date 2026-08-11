@@ -1,0 +1,25 @@
+{
+  "type": "beneficial",
+  "id": "glacial_dash",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 33.3,
+      "min": 33.3,
+      "stat": "dmg_reduction_from_snow_tracked"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "positive",
+    "defensive"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "dungeon_realm:fixed_dungeon_map",
+  "target_dungeon": "moo",
+  "pattern": [
+    "XP "
+  ],
+  "key": {
+    "X": { "item": "roe_weapons:wirtsleg" },
+    "P": { "item": "waystones:warp_stone" }
+  },
+  "result": {
+    "item": "dungeon_realm:fixed_dungeon_map_item"
+  }
+}

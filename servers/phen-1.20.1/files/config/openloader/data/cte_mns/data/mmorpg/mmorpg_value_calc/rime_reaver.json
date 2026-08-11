@@ -1,0 +1,33 @@
+{
+  "base": {
+    "max": 4.0,
+    "min": 2.8
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 2.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 1.5,
+      "min": 1.05
+    },
+    "stat": "health"
+  },
+  "id": "rime_reaver",
+  "target_stat_scalings": [],
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 1.5,
+        "min": 1.05
+      },
+      "stat": "weapon_damage"
+    },
+    {
+      "multi": {
+        "max": 0.15,
+        "min": 0.105
+      },
+      "stat": "energy"
+    }
+  ]
+}

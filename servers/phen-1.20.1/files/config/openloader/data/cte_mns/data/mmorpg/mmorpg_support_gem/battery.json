@@ -1,0 +1,22 @@
+{
+  "id": "battery",
+  "manaMulti": 1.2,
+  "min_lvl": 30,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "inc_leech_per_lightning_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 21.0,
+      "min": 7.0,
+      "stat": "all_lightning_damage"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

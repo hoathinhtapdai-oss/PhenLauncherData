@@ -1,0 +1,15 @@
+{
+  "data": {
+    "add_to": "freeze_chance",
+    "adder_stat": "bleed_chance",
+    "base": 0.0,
+    "ele": "Physical",
+	"priority": 100,
+    "id": "freeze_chance_per_perc_of_bleed_chance",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

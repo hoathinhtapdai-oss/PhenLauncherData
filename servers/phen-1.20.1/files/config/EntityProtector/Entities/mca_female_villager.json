@@ -1,0 +1,12 @@
+{
+  "entityId": "mca:female_villager",
+  "takeNormalDamage": false,
+  "takeMobDamage": true,
+  "takeGenericSpellDamage": false,
+  "takeMineSlashSpellDamage": false,
+  "takeIronSpellDamage": false,
+  "canDamagePlayer": false,
+  "cancelAggroTime": 5,
+  "neutralUntilAttacked": false,
+  "isProtectedByNameTags": true
+}

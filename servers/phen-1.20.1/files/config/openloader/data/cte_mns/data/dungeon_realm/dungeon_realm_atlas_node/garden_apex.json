@@ -1,0 +1,10 @@
+{
+  "atlas_points_reward": 3,
+  "dungeon": "garden",
+  "id": "garden_apex",
+  "is_pinnacle_unlock": true,
+  "min_rarity": "",
+  "min_tier": 15,
+  "require_uber": true,
+  "starting_node": false
+}

@@ -1,0 +1,35 @@
+{
+  "gem_type": "tourmaline",
+  "identifier": "tourmaline7",
+  "item_id": "mmorpg:gems/tourmaline/7",
+  "min_lvl_multi": 0.6,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "inc_effect_of_defensive_buff_given",
+      "v1": 7.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "eff_dur_u_cast",
+      "v1": 21.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "inc_effect_of_negative_buff_given",
+      "v1": 14.0
+    }
+  ],
+  "perc_upgrade_chance": 0,
+  "rar": "mythic",
+  "text_format": "LIGHT_PURPLE",
+  "tier": 7,
+  "weight": 0
+}

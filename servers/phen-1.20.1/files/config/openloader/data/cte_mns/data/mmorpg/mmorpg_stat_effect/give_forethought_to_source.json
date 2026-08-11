@@ -1,0 +1,7 @@
+{
+  "effect": "forethought",
+  "give_to": "Source",
+  "id": "give_forethought_to_source",
+  "seconds": 10,
+  "ser": "give_exile_effect"
+}

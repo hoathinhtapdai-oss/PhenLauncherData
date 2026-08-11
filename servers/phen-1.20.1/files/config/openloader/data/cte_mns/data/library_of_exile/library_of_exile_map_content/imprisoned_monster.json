@@ -1,0 +1,8 @@
+{
+  "always_spawn": false,
+  "block_id": "mmorpg:imprisoned_monster",
+  "id": "imprisoned_monster",
+  "max_blocks": 2,
+  "min_blocks": 1,
+  "weight": 1000
+}

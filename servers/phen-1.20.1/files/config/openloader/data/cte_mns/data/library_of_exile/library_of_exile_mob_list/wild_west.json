@@ -1,0 +1,39 @@
+{
+  "id": "wild_west",
+  "mobs": [
+    {
+      "mob_id": "born_in_chaos_v1:skeleton_demoman",
+      "weight": 150
+    },
+    {
+      "mob_id": "born_in_chaos_v1:spirit_guide",
+      "weight": 150
+    },
+    {
+      "mob_id": "born_in_chaos_v1:spirit_guide_assistant",
+      "weight": 100
+    },
+    {
+      "mob_id": "born_in_chaos_v1:barrel_zombie",
+      "weight": 125
+    },
+    {
+      "mob_id": "minecraft:husk",
+      "weight": 250
+    },
+	{
+      "mob_id": "alexsmobs:guster",
+      "weight": 5
+    },
+	{
+      "mob_id": "alexsmobs:rattlesnake",
+      "weight": 25
+    }
+  ],
+  "tags": {
+    "tags": [
+      "wild_west"
+    ]
+  },
+  "weight": 1000
+}

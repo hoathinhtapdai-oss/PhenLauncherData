@@ -1,0 +1,245 @@
+{
+  "attached": {
+    "entity_components": {
+      "banner": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 0.25,
+                "motion": "None",
+                "particle_count": 5.0,
+                "particle_type": "minecraft:cloud",
+                "radius": 6.0,
+                "shape": "CIRCLE_2D",
+                "y_rand": 0.5
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 2.0
+              }
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "height": 2.0,
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "supplementaries:feather",
+                "radius": 6.0,
+                "shape": "CIRCLE_2D",
+                "y_rand": 0.5
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 4.0
+              }
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+          {
+            "type": "exile_effect",
+            "map": {
+              "count": 1.0,
+              "exile_potion_id": "snow_tracked",
+              "potion_action": "GIVE_STACKS",
+              "potion_dur": 160.0
+            }
+          }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 30.0
+              }
+            }
+          ],
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "en_predicate": "enemies",
+                "radius": 6.0,
+                "selection_type": "RADIUS"
+              }
+            }
+		  ]
+        },
+        {
+          "acts": [
+          {
+            "type": "exile_effect",
+            "map": {
+              "count": 1.0,
+              "exile_potion_id": "banner_of_the_hunt",
+              "potion_action": "GIVE_STACKS",
+              "potion_dur": 40.0
+            }
+          }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 10.0
+              }
+            }
+          ],
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "en_predicate": "allies",
+                "radius": 6.0,
+                "selection_type": "RADIUS"
+              }
+            }
+		  ]
+        },
+        {
+          "acts": [
+            {
+              "type": "sound",
+              "map": {
+                "pitch": 0.5,
+                "sound": "roe_sfx:spell_windslash",
+                "volume": 0.75
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 40.0,
+                "first_tick": 20.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ]
+    },
+    "on_cast": [
+      {
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "pitch": 2.0,
+              "sound": "roe_sfx:spell_quake",
+              "volume": 1.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+            {
+              "type": "summon_block",
+              "map": {
+                "block": "remnant_bosses:ancient_altar",
+                "block_fall_speed": 0.0,
+                "entity_name": "banner",
+                "find_surface": true,
+                "is_falling_block": false,
+                "life_ticks": 160.0,
+                "summon_limit_group": "banner"
+              }
+            }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      }
+    ]
+  },
+  "cast_animation": {
+    "id": "staff_cast_loop"
+  },
+  "cast_finish_animation": {
+    "id": "staff_ground"
+  },
+  "config": {
+    "aggro_radius": 10,
+    "cast_time_ticks": 0,
+    "castingWeapon": "ANY_WEAPON",
+    "charge_name": "",
+    "charge_regen": 0,
+    "charges": 0,
+    "cooldown_ticks": 160,
+    "ene_cost": {
+      "max": 11.0,
+      "min": 8.25
+    },
+    "imbues": 0,
+    "mana_cost": {
+      "max": 0.0,
+      "min": 0.0
+    },
+    "slows_when_casting": true,
+    "style": "str",
+    "summonType": "NONE",
+    "summon_basic_atk": "pet_basic",
+    "swing_arm": false,
+    "tags": {
+      "tags": [
+      "banner",
+      "area",
+      "buff"
+      ]
+    },
+    "times_to_cast": 1,
+    "tracking_radius": 5,
+    "tracks": "enemies",
+    "use_support_gems_from": ""
+  },
+  "default_lvl": 0,
+  "disabled_dims": [],
+  "effect_tip": "",
+  "identifier": "banner_of_the_hunt",
+  "loc_name": "Banner of the Hunt",
+  "lvl_based_on_spell": "",
+  "manual_tip": true,
+  "max_lvl": 8,
+  "min_lvl": 1,
+  "show_other_spell_tooltip": "",
+  "statsForSkillGem": [],
+  "weight": 1000
+}

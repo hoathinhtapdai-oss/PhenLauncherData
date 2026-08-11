@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/spells/icons/banner_of_the_hunt.png",
+  "id": "banner_of_the_hunt",
+  "is_entry": false,
+  "max_lvls": 8,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "learn_banner_of_the_hunt",
+      "v1": 1.0
+    }
+  ]
+}

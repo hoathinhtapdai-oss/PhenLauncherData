@@ -1,0 +1,98 @@
+{
+  "id": "sanguimancer",
+  "lvl_reqs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "perks": {
+    "soul_siphon": {
+      "x": 1,
+      "y": 0
+    },
+    "curse_of_damnation": {
+      "x": 1,
+      "y": 1
+    },
+    "vile_splash_potion": {
+      "x": 1,
+      "y": 3
+    },
+    "summon_wraith": {
+      "x": 1,
+      "y": 4
+    },
+    "dark_pact": {
+      "x": 1,
+      "y": 6
+    },
+    "shadow_step": {
+      "x": 2,
+      "y": 2
+    },
+    "blood_harvest": {
+      "x": 2,
+      "y": 5
+    },
+    "banishing_blade": {
+      "x": 3,
+      "y": 1
+    },
+    "blasphemous_ritual": {
+      "x": 3,
+      "y": 3
+    },
+    "reaper_form": {
+      "x": 3,
+      "y": 6
+    },
+    "plague_aura": {
+      "x": 5,
+      "y": 0
+    },
+    "abyssal_aura": {
+      "x": 5,
+      "y": 2
+    },
+    "sanguine_aura": {
+      "x": 5,
+      "y": 5
+    },
+    "p_poison_bleed_chance_sang": {
+      "x": 8,
+      "y": 1
+    },
+    "p_sacrifice_when_hit_sang": {
+      "x": 8,
+      "y": 2
+    },
+    "p_negative_effect_sang": {
+      "x": 8,
+      "y": 3
+    },
+    "p_health_sang": {
+      "x": 9,
+      "y": 1
+    },
+    "p_double_attack_chance_when_low_sang": {
+      "x": 9,
+      "y": 6
+    },
+    "p_chaos_res_sang": {
+      "x": 8,
+      "y": 4
+    },
+    "p_chaos_pen_sang": {
+      "x": 8,
+      "y": 6
+    },
+    "p_health_per_sec_sang": {
+      "x": 8,
+      "y": 5
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "cryolancer",
+  "lvl_reqs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "perks": {
+    "glacial_dash": {
+      "x": 1,
+      "y": 0
+    },
+    "tailwind_sweep": {
+      "x": 1,
+      "y": 2
+    },
+    "vortex_skewer": {
+      "x": 1,
+      "y": 3
+    },
+    "glacial_condemnation": {
+      "x": 1,
+      "y": 5
+    },
+    "whiteout_sovereign": {
+      "x": 1,
+      "y": 6
+    },
+    "frostbite_thrust": {
+      "x": 2,
+      "y": 1
+    },
+    "avalanche_vault": {
+      "x": 2,
+      "y": 3
+    },
+    "winters_grasp": {
+      "x": 2,
+      "y": 4
+    },
+    "rime_reaver": {
+      "x": 2,
+      "y": 6
+    },
+    "banner_of_the_blizzard": {
+      "x": 4,
+      "y": 0
+    },
+    "banner_of_the_frozen_guard": {
+      "x": 4,
+      "y": 2
+    },
+    "banner_of_the_hunt": {
+      "x": 4,
+      "y": 4
+    },
+    "banner_of_the_piercing_gale": {
+      "x": 4,
+      "y": 5
+    },
+    "ice_tipped_spear": {
+      "x": 5,
+      "y": 1
+    },
+    "chilled_reflexes": {
+      "x": 5,
+      "y": 2
+    },
+    "hoarfrost_armor": {
+      "x": 5,
+      "y": 4
+    },
+    "p_energy_regen_cry": {
+      "x": 8,
+      "y": 1
+    },
+    "p_basic_attack_dmg_cry": {
+      "x": 8,
+      "y": 2
+    },
+    "p_ele_spear_damage_cry": {
+      "x": 8,
+      "y": 3
+    },
+    "p_armor_gained_as_health_cry": {
+      "x": 8,
+      "y": 4
+    },
+    "p_cold_resist_gained_as_chaos_resist_cry": {
+      "x": 8,
+      "y": 5
+    },
+    "p_dmg_reduction_from_snow_tracked_cry": {
+      "x": 8,
+      "y": 6
+    },
+    "p_move_speed_cry": {
+      "x": 9,
+      "y": 2
+    },
+    "p_dodge_gained_as_energy_cry": {
+      "x": 9,
+      "y": 4
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "add_to": "burn_duration",
+    "adder_stat": "area_dmg",
+    "base": 0.0,
+    "ele": "Physical",
+	"priority": 100,
+    "id": "burn_duration_per_perc_area_dmg",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

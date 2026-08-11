@@ -1,0 +1,7 @@
+{
+  "effect": "projection_on_dodge",
+  "give_to": "Target",
+  "id": "give_projection_on_dodge_to_target",
+  "seconds": 2,
+  "ser": "give_exile_effect"
+}

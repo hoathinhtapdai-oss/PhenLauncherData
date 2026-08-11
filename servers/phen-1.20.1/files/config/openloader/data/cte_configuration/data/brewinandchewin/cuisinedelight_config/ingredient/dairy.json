@@ -1,0 +1,102 @@
+{
+  "entries": [
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "mine_and_meals:dairy_1",
+          "level": 0,
+          "time": 18000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewinandchewin:flaxen_cheese_wedge"
+        }
+      ],
+      "max_time": 120,
+      "min_time": 0,
+      "nutrition": 7,
+      "overcook_penalty": 0.7,
+      "raw_penalty": 0,
+      "size": 2,
+      "stir_time": 60
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "mine_and_meals:dairy_2",
+          "level": 0,
+          "time": 32000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewinandchewin:flaxen_cheese_wheel"
+        }
+      ],
+      "max_time": 320,
+      "min_time": 160,
+      "nutrition": 28,
+      "overcook_penalty": 0.7,
+      "raw_penalty": 0.4,
+      "size": 8,
+      "stir_time": 60
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "mine_and_meals:dairy_1",
+          "level": 0,
+          "time": 18000
+        },
+        {
+          "effect": "mine_and_meals:spice_1",
+          "level": 0,
+          "time": 18000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewinandchewin:scarlet_cheese_wedge"
+        }
+      ],
+      "max_time": 120,
+      "min_time": 0,
+      "nutrition": 7,
+      "overcook_penalty": 0.7,
+      "raw_penalty": 0,
+      "size": 2,
+      "stir_time": 60
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "mine_and_meals:dairy_2",
+          "level": 0,
+          "time": 32000
+        },
+        {
+          "effect": "mine_and_meals:spice_1",
+          "level": 0,
+          "time": 32000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewinandchewin:scarlet_cheese_wheel"
+        }
+      ],
+      "max_time": 320,
+      "min_time": 160,
+      "nutrition": 28,
+      "overcook_penalty": 0.7,
+      "raw_penalty": 0.4,
+      "size": 8,
+      "stir_time": 60
+    }
+  ]
+}

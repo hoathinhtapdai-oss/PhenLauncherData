@@ -1,0 +1,8 @@
+{
+  "entityId": "minecraft:cat",
+  "useWolfLikeAI": true,
+  "takeOwnerDamage": false,
+  "takeOtherPlayerDamage": false,
+  "takeMobDamage": false,
+  "isProtectedByNameTags": false
+}

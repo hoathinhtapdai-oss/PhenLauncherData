@@ -1,0 +1,17 @@
+{
+  "exp": 1000,
+  "id": "pinnacle_upgrade5",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "dungeon_realm:uber_upgrade",
+      "num": 4
+    }
+  ],
+  "profession": "enchanting",
+  "requires_pinnacle_unlock": true,
+  "result": "dungeon_realm:pinnacle_upgrade",
+  "result_num": 1,
+  "set_tier_nbt": true,
+  "tier": 5
+}

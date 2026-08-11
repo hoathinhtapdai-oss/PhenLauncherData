@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "B B",
+    "O O"
+  ],
+  "key": {
+    "B": {"item": "minecraft:iron_ingot"},
+    "O": {
+      "item": "mmorpg:material/mining/4"
+    }
+  },
+  "result": {
+    "item": "cte_essentials:plate_4_boots",
+    "count": 1
+  }
+}

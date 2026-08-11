@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "BOB",
+    "B B"
+  ],
+  "key": {
+    "B": {"tag": "minecraft:wool"},
+    "O": {
+      "item": "mmorpg:material/mining/5"
+    }
+  },
+  "result": {
+    "item": "cte_essentials:cloth_5_helmet",
+    "count": 1
+  }
+}

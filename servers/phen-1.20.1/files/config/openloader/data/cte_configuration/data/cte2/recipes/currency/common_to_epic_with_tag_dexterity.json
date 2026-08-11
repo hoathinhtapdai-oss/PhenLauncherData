@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "mmorpg:stone/3"
+    },
+    "Y": {
+      "item": "ancient_obelisks:ancient_greed"
+    }
+  },
+  "pattern": [
+    " Y ",
+    "YXY",
+    " Y "
+  ],
+  "result": {
+    "item": "mmorpg:currency/common_to_epic_with_tag_dexterity"
+  },
+  "show_notification": true
+}

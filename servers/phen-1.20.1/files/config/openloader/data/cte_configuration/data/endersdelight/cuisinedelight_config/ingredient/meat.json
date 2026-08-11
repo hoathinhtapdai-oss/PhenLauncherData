@@ -1,0 +1,156 @@
+{
+    "entries": [
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 12000
+                },
+                {
+                    "effect": "mine_and_meals:fish_1",
+                    "level": 0,
+                    "time": 12000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "endersdelight:shulker_mollusk"
+                }
+            ],
+            "max_time": 360,
+            "min_time": 240,
+            "nutrition": 8,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 60
+        },
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 8000
+                },
+                {
+                    "effect": "mine_and_meals:fish_1",
+                    "level": 0,
+                    "time": 8000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "endersdelight:shulker_filet"
+                }
+            ],
+            "max_time": 240,
+            "min_time": 180,
+            "nutrition": 4,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 1,
+            "stir_time": 40
+        },
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "endersdelight:enderman_sight"
+                }
+            ],
+            "max_time": 280,
+            "min_time": 200,
+            "nutrition": 6,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 2,
+            "stir_time": 60
+        },
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 18000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "endersdelight:sight_fragment"
+                }
+            ],
+            "max_time": 240,
+            "min_time": 160,
+            "nutrition": 3,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "MEAT",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 12000
+                },
+                {
+                    "effect": "mine_and_meals:meat_1",
+                    "level": 0,
+                    "time": 12000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "endersdelight:mite_crust"
+                }
+            ],
+            "max_time": 240,
+            "min_time": 160,
+            "nutrition": 4,
+            "overcook_penalty": 0.5,
+            "raw_penalty": 0.5,
+            "size": 1,
+            "stir_time": 60
+        },
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "mine_and_meals:strange_1",
+                    "level": 0,
+                    "time": 10000
+                },
+                {
+                    "effect": "endersdelight:phasing",
+                    "level": 0,
+                    "time": 10000
+                }
+            ],
+            "ingredient": [
+                {
+                    "item": "endersdelight:ender_shard"
+                }
+            ],
+            "max_time": 240,
+            "min_time": 160,
+            "nutrition": 3,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0.1,
+            "size": 1,
+            "stir_time": 80
+        }
+    ]
+}

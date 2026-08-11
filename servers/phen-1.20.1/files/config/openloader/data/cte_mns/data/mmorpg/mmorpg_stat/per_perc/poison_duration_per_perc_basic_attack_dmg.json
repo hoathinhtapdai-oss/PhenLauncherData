@@ -1,0 +1,15 @@
+{
+  "data": {
+    "add_to": "poison_duration",
+    "adder_stat": "basic_attack_dmg",
+    "base": 0.0,
+    "ele": "Physical",
+	"priority": 100,
+    "id": "poison_duration_per_perc_basic_attack_dmg",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

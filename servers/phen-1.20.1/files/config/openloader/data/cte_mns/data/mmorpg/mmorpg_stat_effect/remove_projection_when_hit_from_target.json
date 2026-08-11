@@ -1,0 +1,7 @@
+{
+  "effect": "projection_when_hit",
+  "id": "remove_projection_when_hit_from_target",
+  "remove_from": "Target",
+  "ser": "remove_exile_effect",
+  "stacks": 10
+}

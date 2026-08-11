@@ -1,0 +1,30 @@
+{
+  "type": "beneficial",
+  "id": "draconic_blood",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 15.0,
+      "stat": "summon_duration"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "dot_dmg"
+    }
+  ],
+  "tags": {
+    "tags": [
+      "positive"
+    ]
+  }
+}

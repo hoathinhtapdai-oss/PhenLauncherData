@@ -1,0 +1,57 @@
+{
+  "base_gear": "chainmail_boots",
+  "guid": "gallow_strides",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "imprisoned_monster",
+  "min_drop_lvl": 70,
+  "min_tier": 10,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 65.0,
+      "min": 55.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "learn_reckoners_flail"
+    },
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 6.0,
+      "stat": "health"
+    },
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 6.0,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 50.0,
+      "stat": "endurance_charge_when_hit"
+    },
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 4.0,
+      "stat": "strength"
+    },
+    {
+      "type": "FLAT",
+      "max": -25.0,
+      "min": -25.0,
+      "stat": "roll_cooldown"
+    }
+  ],
+  "weight": 1000
+}

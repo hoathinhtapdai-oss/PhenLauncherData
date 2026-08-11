@@ -1,0 +1,10 @@
+{
+  "atlas_points_reward": 0,
+  "dungeon": "nature",
+  "id": "nature_uber",
+  "is_pinnacle_unlock": true,
+  "min_rarity": "",
+  "min_tier": 0,
+  "require_uber": true,
+  "starting_node": false
+}

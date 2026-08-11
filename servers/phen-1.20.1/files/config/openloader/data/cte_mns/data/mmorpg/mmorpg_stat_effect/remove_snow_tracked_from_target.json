@@ -1,0 +1,7 @@
+{
+  "effect": "snow_tracked",
+  "id": "remove_snow_tracked_from_target",
+  "remove_from": "Target",
+  "ser": "remove_exile_effect",
+  "stacks": 1
+}

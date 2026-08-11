@@ -1,0 +1,35 @@
+{
+  "id": "bridge",
+  "mobs": [
+    {
+      "mob_id": "born_in_chaos_v1:fallen_chaos_knight",
+      "weight": 650
+    },
+    {
+      "mob_id": "born_in_chaos_v1:zombie_bruiser",
+      "weight": 50
+    },
+    {
+      "mob_id": "realmrpg_wyrms:red_wyrm",
+      "weight": 150
+    },
+    {
+      "mob_id": "twilightforest:upper_goblin_knight",
+      "weight": 125
+    },
+    {
+      "mob_id": "born_in_chaos_v1:skeleton_thrasher",
+      "weight": 250
+    },
+    {
+      "mob_id": "born_in_chaos_v1:door_knight ",
+      "weight": 250
+    }
+  ],
+  "tags": {
+    "tags": [
+      "bridge"
+    ]
+  },
+  "weight": 1000
+}

@@ -1,0 +1,15 @@
+{
+  "type": "SPECIAL",
+  "icon": "mmorpg:textures/gui/stat_icons/misc/strongbox_extra_drops.png",
+  "id": "strongbox_extra_drops_node_big",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "strongbox_extra_drops",
+      "v1": 12.0
+    }
+  ]
+}

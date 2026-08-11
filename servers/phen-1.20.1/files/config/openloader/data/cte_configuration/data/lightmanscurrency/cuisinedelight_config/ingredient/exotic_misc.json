@@ -1,0 +1,34 @@
+{
+    "entries": [
+        {
+            "type": "NONE",
+            "effects": [
+                {
+                    "effect": "minecraft:slowness",
+                    "level": 3,
+                    "time": 1500
+                },
+                {
+                    "effect": "minecraft:wither",
+                    "level": 1,
+                    "time": 1500
+                },
+                {
+                    "effect": "farmersdelight:nourishment",
+                    "level": 4,
+                    "time": 1500
+                }
+            ],
+            "ingredient": {
+                    "item": "lightmanscurrency:coinblock_netherite"
+                },
+            "max_time": 1000,
+            "min_time": 600,
+            "nutrition": 20,
+            "overcook_penalty": 0.3,
+            "raw_penalty": 0.9,
+            "size": 5,
+            "stir_time": 1000
+        }     
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/spells/passives/p_ele_spear_damage_cry.png",
+  "id": "p_ele_spear_damage_cry",
+  "is_entry": false,
+  "max_lvls": 8,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "phys_to_water",
+      "v1": 6.25
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "ele_spear_damage",
+      "v1": 1.0
+    }
+  ]
+}

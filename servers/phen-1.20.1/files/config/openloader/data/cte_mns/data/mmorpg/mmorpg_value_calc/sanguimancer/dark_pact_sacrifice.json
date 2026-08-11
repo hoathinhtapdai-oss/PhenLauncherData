@@ -1,0 +1,33 @@
+{
+  "base": {
+    "max": 6.0,
+    "min": 4.2
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 10.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 1.5,
+      "min": 1.05
+    },
+    "stat": "health"
+  },
+  "id": "dark_pact_sacrifice",
+  "target_stat_scalings": [],
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 1.5,
+        "min": 1.05
+      },
+      "stat": "weapon_damage"
+    },
+    {
+      "multi": {
+        "max": 0.225,
+        "min": 0.225
+      },
+      "stat": "health"
+    }
+  ]
+}

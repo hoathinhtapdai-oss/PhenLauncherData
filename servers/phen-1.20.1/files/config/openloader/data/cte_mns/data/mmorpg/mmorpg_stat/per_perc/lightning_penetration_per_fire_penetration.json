@@ -1,0 +1,15 @@
+{
+  "data": {
+    "add_to": "lightning_penetration",
+    "adder_stat": "fire_penetration",
+    "base": 0.0,
+    "ele": "Physical",
+	"priority": 75,
+    "id": "lightning_penetration_per_fire_penetration",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

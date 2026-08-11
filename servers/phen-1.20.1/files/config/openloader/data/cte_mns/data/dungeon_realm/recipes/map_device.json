@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "CAC",
+    " B "
+  ],
+  "key": {
+	"A": {
+      "item": "mmorpg:stone/3"
+    }, 
+	"B": {
+      "item": "minecraft:obsidian"
+    }, 
+	"C": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "dungeon_realm:map_device"
+  }
+}

@@ -1,0 +1,80 @@
+/*
+
+# unique_gear_id : learn_spell_id # ;
+
+
+armor_clad_faith : learn_pull ;
+atronach : learn_summon_lightning_golem ;
+bounty_of_the_harvest : learn_harvest ;
+crown_of_heresy : learn_holy_fire ;
+eyfor_anai : learn_puncture ;
+genji_domaru : learn_slice ;
+ghostly_shores : learn_heart_of_ice ;
+goblin_toe : learn_prayer ;
+honourhome : learn_protection ;
+spark_aura : learn_holy_shock ;
+stormwielder : learn_chain_lightning ;
+the_jade_tan_do : learn_piercing_dagger_throw ;
+the_written_word : learn_grand_cross ;
+wake_of_destruction : learn_teleport ;
+witch_brew : learn_hunter_potion ;
+
+
+# unique_gear_id : proc_spell_id #
+
+
+air_disaster : proc_chain_lightning_on_power_chord_hit ;
+anninath_curse_of_misfortunes : proc_cursed_axe_throw_on_attack_hit ;
+arachnogenesis : proc_summon_spider_arrow_totem ;
+assassins_katar : proc_double_strike_on_basic_hit ;
+a_fathers_love : proc_gong_strike_on_block ;
+balgaman_curse_of_exhaustion : proc_cursed_lightning_nova_on_lightning_hit ;
+bones_of_ullr : proc_summon_skeleton_army_on_kill ;
+burning_desire: proc_steam_cloud_on_basic_hit ;
+call_of_the_void : proc_healing_aura_on_hit_vll ;
+cospris_malice : proc_poison_ball_on_poison ;
+divinarius : proc_zap_on_hit ;
+doombolt : proc_black_hole_on_snipe ;
+druidic_claw : proc_blood_explosion_bleed ;
+egthal_curse_of_chaos : proc_cursed_timewinder_on_crit ;
+expeditions_end : proc_frost_nova_when_hit ;
+eyfor_anai : proc_puncture_on_block ;
+farruls_fur : proc_flicker_refresh_on_flicker_strike ;
+fracture_splint : proc_summon_skeleton_army_on_kill ;
+frostbreath : proc_tidal_strike_on_cold_hit ;
+generals_impaler : proc_chilling_field_on_basic_hit ;
+genji_domaru : proc_slice ;
+genji_kabuto : proc_slice ;
+genji_sune_ate : proc_slice ;
+genji_tsutsu_hakama : proc_slice ;
+girnad_curse_of_conformity : proc_cursed_power_chord_on_song_hit ;
+glazed_frenzy : proc_arrow_storm_on_ricochet_shot ;
+heavenly_tear : proc_fist_of_judgment_on_hit ;
+icetomb : proc_cold_snap_when_hit ;
+kuko_shakaku : proc_meteor_on_arrow_storm_hit ;
+lantern_of_lost_ghost : proc_smoke_bomb_when_hit ;
+lightbane : proc_poison_cloud_on_block ;
+markorod_curse_of_echoe : proc_cursed_ricochet_shot_on_ricochet_shot ;
+mjolner : proc_blessed_hammer_on_hit , proc_zap_on_hit ;
+new_dawn_flame : proc_steam_cloud_on_kill ;
+ollmel_curse_of_predation : proc_cursed_arrow_barrage_on_crit ;
+poets_pen : proc_kinetic_blast ;
+rabbit_paw : proc_turbo_when_hit ;
+ralgrath_curse_of_oblivion : proc_cursed_fist_of_judgment_on_hit ;
+shiversting : proc_tidal_strike_on_cold_hit ;
+skull_of_spirits : proc_summon_wisp_when_hit ;
+sogroken_curse_of_silence : proc_cursed_meteor_on_spell_hit ;
+soulfeast_tine : proc_profane_explosion ;
+soul_taker : proc_blood_explosion ;
+sparkfinder : proc_pulsar_singularity_trap_on_beast_hit ;
+stormwielder : proc_chain_lightning_on_attack_hit ;
+tergereth_curse_of_obsession : proc_cursed_quake_on_hit ;
+the_obliterator : proc_profane_explosion_any ;
+the_reapers_toll : proc_slice ;
+ungabathas : proc_hop_on_basic_attack , proc_frost_nova_on_movement_hit ;
+voltaxic_rift : proc_poison_ball_on_charged_bolt ;
+withers_flame : proc_armageddon_on_attack_hit ;
+wizardspike : proc_zap_on_hit ;
+xulgrad_curse_of_vengeance : proc_cursed_raging_dragon_on_finisher_hit ;
+zazzith_curse_of_the_restless_dead : proc_cursed_summon_zombie_on_kill ;
+*/

@@ -1,0 +1,39 @@
+{
+  "base_gear": "ring",
+  "guid": "blood_spark",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_drop_lvl": 10,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "health"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "plus_phys_to_lightning"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "lifesteal"
+    },
+    {
+      "type": "FLAT",
+      "max": 16.0,
+      "min": 12.0,
+      "stat": "lightning_resist"
+    }
+  ],
+  "weight": 1000
+}

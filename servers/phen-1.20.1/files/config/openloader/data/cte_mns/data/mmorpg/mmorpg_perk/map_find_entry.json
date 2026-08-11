@@ -1,0 +1,16 @@
+{
+  "type": "START",
+  "icon": "mmorpg:textures/gui/stat_icons/misc/map_find.png",
+  "id": "map_find_entry",
+  "is_entry": true,
+  "max_lvls": 1,
+  "one_kind": "atlas_start",
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "map_find",
+      "v1": 1.0
+    }
+  ]
+}
