@@ -1,0 +1,39 @@
+JVM info: Eclipse Adoptium - 25.0.3 - 25.0.3+9-LTS
+java.net.preferIPv4Stack=true
+Current Time: 14/08/2026 21:54:41
+Host: files.minecraftforge.net [172.67.161.211, 104.21.58.163]
+Host: maven.minecraftforge.net [172.67.161.211, 104.21.58.163]
+Host: libraries.minecraft.net [150.171.110.98]
+Host: launchermeta.mojang.com [150.171.110.103]
+Host: piston-meta.mojang.com [150.171.110.101]
+Host: sessionserver.mojang.com [150.171.110.97]
+Host: authserver.mojang.com [Unknown]
+Failed to establish connection to https://files.minecraftforge.net/mirrors-2.0.json
+ Host: files.minecraftforge.net [172.67.161.211, 104.21.58.163]
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.read(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(Unknown Source)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Unknown Source)
+	at java.base/java.net.Socket$SocketInputStream.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.base/java.io.BufferedInputStream.fill(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read1(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.base/java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:240)
+	at net.minecraftforge.installer.DownloadUtils.downloadString(DownloadUtils.java:309)
+	at net.minecraftforge.installer.DownloadUtils.downloadMirrors(DownloadUtils.java:300)
+	at net.minecraftforge.installer.json.Install.getMirror(Install.java:103)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:200)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:155)
